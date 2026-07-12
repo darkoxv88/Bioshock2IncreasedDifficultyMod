@@ -47,16 +47,14 @@
 
         create(line) {
           const hacked = line.includes('DisplayWhenHacked=True');
-          const cost = ((hacked ? 0.8 : 1) * 1.1) * this.costMultiplier;
+          const cost = (((hacked ? 0.8 : 1) * 1.1) * this.costMultiplier).toFixed(3);
           const displayWhenUnHacked = hacked ? 'False' : 'True';
           const displayWhenHacked = hacked ? 'True' : 'False';
 
-          const out = `VendingLootSpec=(ItemClass=class'${this.className}', PickupClass=class'${this.pickupName}', StackSize=${this.readStackSize(line)}`
-            + `, CostAdjustment=${cost}, DisplayWhenUnHacked=${displayWhenUnHacked}, DisplayWhenHacked=${displayWhenUnHacked}`
+          return `VendingLootSpec=(ItemClass=class'${this.className}', PickupClass=class'${this.pickupName}', StackSize=${this.readStackSize(line)}`
+            + `, CostAdjustment=${cost}, DisplayWhenUnHacked=${displayWhenUnHacked}, DisplayWhenHacked=${displayWhenHacked}`
             + this.readSupplySize(line) 
             + ')';
-          
-          return out;
         }
       }
 
@@ -90,6 +88,10 @@
 
         for (var line = 0; line < lines.length; line++) {
           const targetLine = lines[line];
+
+          if (!targetLine.includes('VendingLootSpec=')) {
+            continue;
+          } 
 
           for (let item in targetItems) {
             if (!targetLine.includes(item)) {

@@ -11,6 +11,7 @@ Here is what you have to do to get this mod to work correctly on base game.
 Here is what you have to do to get this mod to work correctly on the remastered game.
 
 1) -
+3) Now would you kindly start a new game since it is required to make this mod work correctly.
 
 
 
