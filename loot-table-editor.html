@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Loot table editor</title>
+</head>
+
+<body>
+  <input type="file" name="file" id="file">
+  <pre id='output'></pre>
+
+  <script>
+    document.getElementById('file').onchange = function() {
+      const output = document.getElementById('output')
+      const file = this.files[0];
+
+      async function copyToClipboard(text) {
+        try 
+        {
+          await navigator.clipboard.writeText(text);
+        } 
+        catch (err) 
+        {
+          console.error('Failed to copy: ', err);
+        }
+      }
+
+      class Item {
+        constructor(className, pickupName) {
+          this.className = className;
+          this.pickupName = pickupName;
+        }
+
+        readStackSize(line) {
+          return line.split('StackSize=')[1].split(',')[0];
+        }
+
+        readSupplySize(line) {
+          if (!line.includes('SupplySize=')) {
+            return '';
+          }
+
+          return ', SupplySize=' + line.split('SupplySize=')[1].split(',')[0].split(')');
+        }
+
+        create(line) {
+          const hacked = line.includes('DisplayWhenHacked=True');
+          const cost = hacked ? 0.88 : 1.1;
+          const displayWhenUnHacked = hacked ? 'False' : 'True';
+          const displayWhenHacked = hacked ? 'True' : 'False';
+          return `VendingLootSpec=(ItemClass=class'${this.className}', PickupClass=class'${this.pickupName}', StackSize=${this.readStackSize(line)}, CostAdjustment=${cost}, DisplayWhenUnHacked=${displayWhenUnHacked}, DisplayWhenHacked=${displayWhenUnHacked}` 
+            + this.readSupplySize(line) 
+            + ')';
+        }
+      }
+
+      const reader = new FileReader();
+      reader.onload = async function(progressEvent) {
+        const lines = this.result.split('\n');
+
+        const targetItems = {
+          'ShockDesignerClasses.MedHypo': new Item('ShockDesignerClasses.MedHypo', 'Pickups.MedHypo_Pickup'),
+        };
+
+        for (var line = 0; line < lines.length; line++) {
+          const targetLine = lines[line];
+
+          for (let item in targetItems) {
+            if (!targetLine.includes(item)) {
+              continue;
+            }
+
+            lines[line] = targetItems[item].create(targetLine);
+          }
+        }
+
+        const edited = lines.join('\n');
+
+        console.log(edited);
+        copyToClipboard(edited);
+        output.innerHTML = edited;
+      };
+
+      reader.readAsText(file);
+    };
+  </script>
+</body>
