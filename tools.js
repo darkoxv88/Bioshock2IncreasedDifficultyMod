@@ -86,24 +86,25 @@
     return line;
   }
 
-  document.getElementById('file').onchange = function() {
-    const output = document.getElementById('output')
-    const file = this.files[0];
+  class FileHandler {
+    constructor(file) {
+      this.reader = new FileReader();
+      this.reader.onload = () => this.handle(this.reader.result.split('\n'));
+      this.reader.readAsText(file);
+    }
 
-    const reader = new FileReader();
-    reader.onload = async function(progressEvent) {
-      const lines = this.result.split('\n');
-
+    handle(lines) {
       for (var line = 0; line < lines.length; line++) {
         lines[line] = handleVendorItem(lines[line]);
       }
 
       const edited = lines.join('\n');
-
+      document.getElementById('output').innerHTML = edited;
       copyToClipboard(edited);
-      output.innerHTML = edited;
-    };
+    }
+  }
 
-    reader.readAsText(file);
+  document.getElementById('file').onchange = function() {
+    const handler = new FileHandler(this.files[0]);
   }
 })();
