@@ -41,10 +41,11 @@ Changelog:
 -> Looting a killed enemy gives a little less resources in the first area (Prelude)
 -> Looting a killed enemy gives a little less resources in the second area (Atlantic Express)
 -> Looting a killed enemy gives a little less resources in the third area (Ryan Amusements)
--> Reduced the frequency of the generic Money drops.
+-> Reduced the frequency of the generic Money drops
 -> Reduced the amount of resources drop form the generic Ammo/Alt-Ammo drops
--> Looting a killed Big Daddy now gives less Money.
--> Looting a killed Big Sister now gives less Money.
+-> Looting a killed Spider Splicer now gives a little less resources
+-> Looting a killed Big Daddy now gives less Money
+-> Looting a killed Big Sister now gives less Money
 -> The Big Sister from the duo fight now gives 80 ADAM
 -> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.2 * 1.1
 -> The cost of all Ammo is now calculated: BASE_COST * 1.2
