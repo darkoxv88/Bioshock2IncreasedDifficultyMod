@@ -1,6 +1,8 @@
 (() => {
   const openBracked = '(';
   const closeBracked = ')';
+  const openSquareBracked = '[';
+  const closeSquareBracked = ']';
 
   async function copyToClipboard(text) {
     try 
@@ -10,6 +12,24 @@
     catch (err) 
     {
       console.error('Failed to copy: ', err);
+    }
+  }
+
+  class GroupIdRef {
+    constructor() {
+      this.id = '';
+    }
+
+    set(id) {
+      this.id = (typeof id === 'string') ? id : '';
+    }
+
+    detect(line) {
+      if (!line.includes(openSquareBracked)) {
+        return;
+      }
+
+      this.set(line.split(openSquareBracked)[1].split(closeSquareBracked)[0]);
     }
   }
 
@@ -94,8 +114,11 @@
     }
 
     handle(lines) {
+      const targetId = new GroupIdRef();
+
       for (var line = 0; line < lines.length; line++) {
-        lines[line] = handleVendorItem(lines[line]);
+        targetId.detect(line);
+        lines[line] = handleVendorItem(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
