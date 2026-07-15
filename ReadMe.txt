@@ -62,5 +62,5 @@ Changelog:
 -> Player: default (none Drill) melee swings do slightly more damage (+12%)
 -> Player: Drill Swing damage reduced by 5%
 -> Player: Drill Spin damage increased by 6.67%
--> Player: increased the Electric damage in water taken by 200%
+-> Player: increased the Electric damage in water taken by 108%
 -> Player: set the damage taken multiplier to: 1.05
