@@ -54,7 +54,7 @@ Changelog:
 -> Looting a killed Big Daddy now gives less Money
 -> Looting a killed Big Sister now gives less Money
 -> The Big Sister from the duo fight now gives 80 ADAM
--> Father Simon Wales: reduces all damage taken by 5%
+-> Father Simon Wales: Takes 5% less damage
 -> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.2 * 1.1
 -> The cost of all Ammo is now calculated: BASE_COST * 1.2
 -> Telekinesis 3 can be bought in Fontaine Futuristics and from there on
