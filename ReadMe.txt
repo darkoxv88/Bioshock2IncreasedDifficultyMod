@@ -64,3 +64,12 @@ Changelog:
 -> Player: Drill Spin damage increased by 6.67%
 -> Player: increased the Electric damage in water taken by 108%
 -> Player: set the damage taken multiplier to: 1.05
+
+
+
+Insane3:
+
+Info: The base for this mod is Insane2
+
+Changelog:
+

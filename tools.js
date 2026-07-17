@@ -106,11 +106,17 @@
     return line;
   }
 
+  function handleHackingSpeed(line) {
+    return line;
+  }
+
   class FileHandler {
     constructor(file) {
       this.reader = new FileReader();
       this.reader.onload = () => this.handle(this.reader.result.split('\n'));
       this.reader.readAsText(file);
+      this.handleVendorItem = handleVendorItem;
+      this.handleHackingSpeed = handleHackingSpeed;
     }
 
     handle(lines) {
@@ -118,7 +124,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(line);
-        lines[line] = handleVendorItem(lines[line], targetId);
+        lines[line] = this.handleVendorItem(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
