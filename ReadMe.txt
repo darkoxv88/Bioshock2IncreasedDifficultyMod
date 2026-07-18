@@ -81,6 +81,8 @@ Changelog:
 -> Increases Thuggish Splicer damage by 10%
 -> Increased Security Bot damage against the Player by 25%
 -> Reduced Security Bot damage against NPCs by 35%
+-> Increased Minigun Turret damage against the Player by 10%
+-> Reduced Minigun Turret damage against NPCs by 20%
 -> Player: Rivet Gun Rivet Ammo damage reduced by 12%
 -> Player: Rivet Gun Rivet Ammo headshot damage multiplier increased from 3.0 to 3.75
 -> Player: Rivet Gun Heavy Rivet Ammo damage reduced by 12%
