@@ -73,3 +73,13 @@ Info: The base for this mod is Insane2
 
 Changelog:
 
+-> Looting a killed enemy gives a little less resources in the first area (Prelude)
+-> Looting a killed enemy gives a little less resources in the second area (Atlantic Express)
+-> Looting a killed Rosie Big Daddy gives a little less resources
+-> Hacking: removed the Bonus (Blue) zone from the Safe minigame
+-> Player: Rivet Gun Rivet Ammo damage reduced by 12%
+-> Player: Rivet Gun Rivet Ammo headshot damage multiplier increased from 3.0 to 3.75
+-> Player: Rivet Gun Heavy Rivet Ammo damage reduced by 12%
+-> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 2.5 to 3.125
+-> Player: increased the Electric damage in water taken by 10%
+-> Player: set the damage taken multiplier to: 1.1
