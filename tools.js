@@ -20,6 +20,10 @@
       this.id = '';
     }
 
+    get() {
+      return this.id;
+    }
+
     set(id) {
       this.id = (typeof id === 'string') ? id : '';
     }
@@ -107,7 +111,145 @@
   }
 
   function handleHackingSpeed(line) {
-    return line;
+    const addValue = 3;
+
+    if (!line.includes('CursorSpeed=')) {
+      return line;
+    } 
+
+    const speedValue = parseInt(line.split('CursorSpeed=')[1]) + addValue;
+
+    return 'CursorSpeed=' + speedValue.toString();
+  }
+
+  class ResistanceType {
+    constructor(type, resistanceMultiplier, applyChanceMultiplier) {
+      this.type = type;
+      this.resistanceMultiplier = (typeof resistanceMultiplier === 'number') ? resistanceMultiplier : 1;
+      this.applyChanceMultiplier = (typeof applyChanceMultiplier === 'number') ? applyChanceMultiplier : 1;
+      Object.freeze(this);
+    }
+  }
+
+  const fallingResistances = {
+    'STIMULUS_Falling': new ResistanceType('STIMULUS_Falling'),
+    'STIMULUS_AIFalling': new ResistanceType('STIMULUS_AIFalling'),
+  }
+
+  const physicalResistances = {
+    'STIMULUS_AIGenericPiercing': new ResistanceType('STIMULUS_AIGenericPiercing'),
+    'STIMULUS_AIArmorPiercing': new ResistanceType('STIMULUS_AIArmorPiercing'),
+    'STIMULUS_AIAntiPersonnel': new ResistanceType('STIMULUS_AIAntiPersonnel'),
+    'STIMULUS_AIBludgeoning': new ResistanceType('STIMULUS_AIBludgeoning'),
+    'STIMULUS_AIExplosive': new ResistanceType('STIMULUS_AIExplosive'),
+    'STIMULUS_AIDrill': new ResistanceType('STIMULUS_AIDrill'),
+    'STIMULUS_AIDaddyDash': new ResistanceType('STIMULUS_AIDaddyDash'),
+  }
+
+  const elementalResistances = {
+    'STIMULUS_AIHeat': new ResistanceType('STIMULUS_AIHeat'),
+    'STIMULUS_AICold': new ResistanceType('STIMULUS_AICold'),
+    'STIMULUS_AIElectric': new ResistanceType('STIMULUS_AIElectric'),
+    'STIMULUS_Frozen': new ResistanceType('STIMULUS_Frozen'),
+    'STIMULUS_Burning': new ResistanceType('STIMULUS_Burning'),
+    'STIMULUS_BurningTime': new ResistanceType('STIMULUS_BurningTime'),
+    'STIMULUS_Diseased': new ResistanceType('STIMULUS_Diseased'),
+    'STIMULUS_ElectricInWater': new ResistanceType('STIMULUS_ElectricInWater'),
+    'STIMULUS_ShockedInWater': new ResistanceType('STIMULUS_ShockedInWater'),
+  }
+
+  const enragedResistances = {
+    'STIMULUS_Berserk': new ResistanceType('STIMULUS_Berserk'),
+    'STIMULUS_LatentBerserk': new ResistanceType('STIMULUS_LatentBerserk'),
+  }
+
+  const securityCommandResistances = {
+    'STIMULUS_SecurityBeacon': new ResistanceType('STIMULUS_SecurityBeacon', 1),
+    'STIMULUS_SecurityBeaconAdvanced': new ResistanceType('STIMULUS_SecurityBeaconAdvanced', 1),
+    'STIMULUS_SecurityBeaconMaster': new ResistanceType('STIMULUS_SecurityBeaconMaster', 1),
+  }
+
+  const allResistanceTypes = {
+    ...fallingResistances,
+    ...physicalResistances,
+    ...elementalResistances,
+    ...enragedResistances,
+    ...securityCommandResistances,
+  }
+
+  class ResistanceGroup {
+    constructor(className) {
+      this.className = className;
+    }
+
+    readResistanceType(line) {
+      if (!line.includes('Resistance=')) {
+        return '';
+      }
+
+      return line.split('Type=')[1].split(',')[0];
+    }
+
+    readAmountModification(line) {
+      return parseFloat(line.split('AmountModification=')[1].split(',')[0].split(closeBracked)[0]);
+    }
+
+    readChanceMultiplier(line) {
+      return parseFloat(line.split('ChanceModification=')[1].split(',')[0].split(closeBracked)[0]);
+    }
+
+    create(line) {
+      const toModify = securityCommandResistances;
+      const resistanceMultiplier = 0.5;
+      const applyChanceMultiplier = 1;
+      
+      const resistanceType = this.readResistanceType(line);
+
+      if (!(resistanceType in toModify)) {
+        return line;
+      }
+
+      const resistanceTypeRef = toModify[resistanceType];
+
+      return 'Resistance=(Type='
+        + resistanceType
+        + ',AmountModification='
+        + (this.readAmountModification(line) * resistanceMultiplier * resistanceTypeRef.resistanceMultiplier).toFixed(4)
+        + ',ChanceModification='
+        + (this.readChanceMultiplier(line) * applyChanceMultiplier * resistanceTypeRef.applyChanceMultiplier).toFixed(4)
+        + closeBracked;
+    }
+  }
+
+  const allResistanceGroups = {
+    'HumanAggressorResistanceSetEasy': new ResistanceGroup('HumanAggressorResistanceSetEasy'),
+    'HumanAggressorResistanceSet': new ResistanceGroup('HumanAggressorResistanceSet'),
+    'HumanAggressorHardResistanceSet': new ResistanceGroup('HumanAggressorHardResistanceSet'),
+    'MeleeThugResistanceSet': new ResistanceGroup('MeleeThugResistanceSet'),
+    'CeilingCrawlerResistanceSet': new ResistanceGroup('CeilingCrawlerResistanceSet'),
+    'AssassinResistanceSet': new ResistanceGroup('AssassinResistanceSet'),
+    'BruteResistanceSet': new ResistanceGroup('BruteResistanceSet'),
+    'SecurityBotResistanceSet': new ResistanceGroup('SecurityBotResistanceSet'),
+    'TurretResistanceSet': new ResistanceGroup('TurretResistanceSet'),
+    'CameraResistanceSet': new ResistanceGroup('CameraResistanceSet'),
+    'MadDaddyResistanceSet': new ResistanceGroup('MadDaddyResistanceSet'),
+    'EdenDaddyResistanceSet': new ResistanceGroup('EdenDaddyResistanceSet'),
+    'BouncerResistanceSet': new ResistanceGroup('BouncerResistanceSet'),
+    'EliteBouncerResistanceSet': new ResistanceGroup('EliteBouncerResistanceSet'),
+    'RosieResistanceSet': new ResistanceGroup('RosieResistanceSet'),
+    'EliteRosieResistanceSet': new ResistanceGroup('EliteRosieResistanceSet'),
+    'SloProFumResistanceSet': new ResistanceGroup('SloProFumResistanceSet'),
+    'BigSisterPreludeResistanceSet': new ResistanceGroup('BigSisterPreludeResistanceSet'),
+    'BigSisterResistanceSet': new ResistanceGroup('BigSisterResistanceSet'),
+    'PreacherResistanceSet': new ResistanceGroup('PreacherResistanceSet'),
+  }
+
+  function handleResistances(line, group) {
+    if (!(group.get() in allResistanceGroups)) {
+      return line;
+    }
+
+    return allResistanceGroups[group.get()].create(line);
   }
 
   class FileHandler {
@@ -117,14 +259,15 @@
       this.reader.readAsText(file);
       this.handleVendorItem = handleVendorItem;
       this.handleHackingSpeed = handleHackingSpeed;
+      this.handleResistances = handleResistances;
     }
 
     handle(lines) {
       const targetId = new GroupIdRef();
 
       for (var line = 0; line < lines.length; line++) {
-        targetId.detect(line);
-        lines[line] = this.handleVendorItem(lines[line], targetId);
+        targetId.detect(lines[line]);
+        lines[line] = this.handleResistances(lines[line], targetId);
       }
 
       const edited = lines.join('\n');

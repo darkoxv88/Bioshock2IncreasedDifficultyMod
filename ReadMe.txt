@@ -62,8 +62,8 @@ Changelog:
 -> Player: default (none Drill) melee swings do slightly more damage (+12%)
 -> Player: Drill Swing damage reduced by 5%
 -> Player: Drill Spin damage increased by 6.67%
--> Player: increased the Electric damage in water taken by 108%
--> Player: set the damage taken multiplier to: 1.05
+-> Player: increased the Electric damage in water taken by 118.8%
+-> Player: sets the damage taken multiplier to 1.05
 
 
 
@@ -77,9 +77,15 @@ Changelog:
 -> Looting a killed enemy gives a little less resources in the second area (Atlantic Express)
 -> Looting a killed Rosie Big Daddy gives a little less resources
 -> Hacking: removed the Bonus (Blue) zone from the Safe minigame
+-> Hacking: increases the needle speed by 3 units (depending on the original speed the increase is about 10%-20%)
+-> Increases Thuggish Splicer damage by 10%
+-> Increased Security Bot damage against the Player by 25%
+-> Reduced Security Bot damage against NPCs by 35%
 -> Player: Rivet Gun Rivet Ammo damage reduced by 12%
 -> Player: Rivet Gun Rivet Ammo headshot damage multiplier increased from 3.0 to 3.75
 -> Player: Rivet Gun Heavy Rivet Ammo damage reduced by 12%
 -> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 2.5 to 3.125
+-> Player: reduces Security Command Plasmid effectiveness by 50%
+-> Player: Enraged Plasmid duration reduced from 20 seconds to 8 seconds
 -> Player: increased the Electric damage in water taken by 10%
--> Player: set the damage taken multiplier to: 1.1
+-> Player: sets the damage taken multiplier to 1.1
