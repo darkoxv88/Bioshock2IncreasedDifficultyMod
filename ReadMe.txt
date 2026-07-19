@@ -96,3 +96,13 @@ Changelog:
 -> Player: Enraged Plasmid duration reduced from 20 seconds to 8 seconds
 -> Player: increased the Electric damage in water taken by 10%
 -> Player: sets the damage taken multiplier to 1.1
+
+
+
+Insane4:
+
+Info: The base for this mod is Insane3
+
+Changelog:
+
+-> 
