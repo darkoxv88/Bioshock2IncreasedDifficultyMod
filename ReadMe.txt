@@ -80,6 +80,8 @@ Changelog:
 -> Hacking: increases the needle speed by 3 units (depending on the original speed the increase is about 10%-20%)
 -> Increases Thuggish Splicer damage by 10%
 -> Increased Security Bot damage against the Player by 25%
+-> Brute Splicers take 10% less damage
+-> Alpha Series Big Daddy takes 10% less damage
 -> Reduced Security Bot damage against NPCs by 35%
 -> Increased Minigun Turret damage against the Player by 10%
 -> Reduced Minigun Turret damage against NPCs by 20%
