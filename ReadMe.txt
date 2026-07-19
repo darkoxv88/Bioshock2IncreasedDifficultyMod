@@ -5,13 +5,14 @@ Here is what you have to do to get this mod to work correctly on base game.
 1) Go to your 'Bioshock 2/SP/Content' directory.
 2) Make a copy of you System Folder, ConfigINI.ibf, and Localizedint.lbf, incase you want to remove this mod or it would cause problems running the game.
 3) Drag the contents of the chosen difficulty folder into your 'Bioshock 2/SP/Content' directory' and if it asks to overwrite, click overwrite everything.
+  - NOTE: If the mod will not work you should also rename ConfigINI.ibf to ConfigINI.ibf.bak and move Localizedint.lbf to the System Folder.
 4) Now would you kindly start a new game since it is required to make this mod work correctly.
 
 Here is what you have to do to get this mod to work correctly on the remastered game.
 
 1) Go to your 'steamapps/common/BioShock 2 Remastered/ContentBaked/pc'
 2) Drag the contents of the chosen difficulty folder into your 'steamapps/common/BioShock 2 Remastered/ContentBaked/pc' directory and if it asks to overwrite, click overwrite everything.
-	NOTE: the game might move the mod files from the 'System' folder to its parent folder and in that case the game mod will still work.
+	- NOTE: the game might move the mod files from the 'System' folder to its parent folder and in that case the game mod will still work.
 3) Now would you kindly start a new game since it is required to make this mod work correctly.
 
 

@@ -222,7 +222,7 @@
 
     create(line) {
       const toModify = securityCommandResistances;
-      const resistanceMultiplier = 0.5;
+      const resistanceMultiplier = 1;
       const applyChanceMultiplier = 1;
       
       const resistanceType = this.readResistanceType(line);
