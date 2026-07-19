@@ -79,8 +79,8 @@
     'ShockGame.Rivet_Ammo': new VendorItem('ShockGame.Rivet_Ammo', 'Pickups.StandardRivet_Pickup', 1.0),
     'ShockGame.Rivet_MagnumAmmo': new VendorItem('ShockGame.Rivet_MagnumAmmo', 'Pickups.HighPowerRivet_Pickup', 1.0),
     'ShockGame.Rivet_TrapAmmo': new VendorItem('ShockGame.Rivet_TrapAmmo', 'Pickups.TrapRivet_Pickup', 1.0),
-    'ShockGame.Hacking_Ammo': new VendorItem('ShockGame.Hacking_Ammo', 'Pickups.HackAmmo_Pickup', 1.0),
-    'ShockGame.Hacking_AutoHackAmmo': new VendorItem('ShockGame.Hacking_AutoHackAmmo', 'Pickups.AutoHackAmmo_Pickup', 1.0),
+    'ShockGame.Hacking_Ammo': new VendorItem('ShockGame.Hacking_Ammo', 'Pickups.HackAmmo_Pickup', 1.2),
+    'ShockGame.Hacking_AutoHackAmmo': new VendorItem('ShockGame.Hacking_AutoHackAmmo', 'Pickups.AutoHackAmmo_Pickup', 1.1),
     'ShockGame.Hacking_TurretAmmo': new VendorItem('ShockGame.Hacking_TurretAmmo', 'Pickups.TurretAmmo_Pickup', 1.0),
     'ShockGame.MachineGun_Bullet': new VendorItem('ShockGame.MachineGun_Bullet', 'Pickups.SMG40Cal_Pickup', 1.0),
     'ShockGame.MachineGun_AntiPersonnelBullet': new VendorItem('ShockGame.MachineGun_AntiPersonnelBullet', 'Pickups.SMGAntiPersonnel_Pickup', 1.0),
@@ -109,10 +109,6 @@
     'Pickups.CannedBeansPickupItem': new VendorItem('Pickups.CannedBeansPickupItem', 'Pickups.CannedBeans_Pickup', 1.1),
     'Pickups.CoffeePickupItem': new VendorItem('Pickups.CoffeePickupItem', 'Pickups.Coffee_Pickup', 1.1),
     'Pickups.ChipsPickupItem': new VendorItem('Pickups.ChipsPickupItem', 'Pickups.Chips_Pickup', 1.1),
-    '': new VendorItem('', '', 1.1),
-    '': new VendorItem('', '', 1.1),
-    '': new VendorItem('', '', 1.1),
-    '': new VendorItem('', '', 1.1),
   };
 
   function handleVendorItem(line) {
@@ -293,7 +289,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleResistances(lines[line], targetId);
+        lines[line] = this.handleVendorItem(lines[line], targetId);
       }
 
       const edited = lines.join('\n');

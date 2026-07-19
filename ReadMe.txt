@@ -85,6 +85,9 @@ Changelog:
 -> Reduced Security Bot damage against NPCs by 35%
 -> Increased Minigun Turret damage against the Player by 10%
 -> Reduced Minigun Turret damage against NPCs by 20%
+-> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.4 * 1.15
+-> The cost of all Ammo is now calculated: BASE_COST * 1.4
+-> The cost of all Consumables is now calculated: BASE_COST * 1.4 * 1.1
 -> Player: Rivet Gun Rivet Ammo damage reduced by 12%
 -> Player: Rivet Gun Rivet Ammo headshot damage multiplier increased from 3.0 to 3.75
 -> Player: Rivet Gun Heavy Rivet Ammo damage reduced by 12%
