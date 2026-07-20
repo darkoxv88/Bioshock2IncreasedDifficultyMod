@@ -105,6 +105,9 @@ Info: The base for this mod is Insane3
 
 Changelog:
 
--> Thuggish Splicers take 15% less damage
+-> Thuggish Splicers take 15% less damage (excluding the ones in the first area (Prelude))
+-> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.5 * 1.15
+-> The cost of all Ammo is now calculated: BASE_COST * 1.5
+-> The cost of all Consumables is now calculated: BASE_COST * 1.5 * 1.1
 -> Player: increased the Electric damage in water taken by 4%
 -> Player: sets the damage taken multiplier to 1.15

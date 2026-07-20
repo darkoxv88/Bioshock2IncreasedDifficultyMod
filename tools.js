@@ -79,7 +79,7 @@
     'ShockGame.Rivet_Ammo': new VendorItem('ShockGame.Rivet_Ammo', 'Pickups.StandardRivet_Pickup', 1.0),
     'ShockGame.Rivet_MagnumAmmo': new VendorItem('ShockGame.Rivet_MagnumAmmo', 'Pickups.HighPowerRivet_Pickup', 1.0),
     'ShockGame.Rivet_TrapAmmo': new VendorItem('ShockGame.Rivet_TrapAmmo', 'Pickups.TrapRivet_Pickup', 1.0),
-    'ShockGame.Hacking_Ammo': new VendorItem('ShockGame.Hacking_Ammo', 'Pickups.HackAmmo_Pickup', 1.2),
+    'ShockGame.Hacking_Ammo': new VendorItem('ShockGame.Hacking_Ammo', 'Pickups.HackAmmo_Pickup', 1.25),
     'ShockGame.Hacking_AutoHackAmmo': new VendorItem('ShockGame.Hacking_AutoHackAmmo', 'Pickups.AutoHackAmmo_Pickup', 1.1),
     'ShockGame.Hacking_TurretAmmo': new VendorItem('ShockGame.Hacking_TurretAmmo', 'Pickups.TurretAmmo_Pickup', 1.0),
     'ShockGame.MachineGun_Bullet': new VendorItem('ShockGame.MachineGun_Bullet', 'Pickups.SMG40Cal_Pickup', 1.0),
@@ -248,6 +248,7 @@
     'HumanAggressorResistanceSet': new ResistanceGroup('HumanAggressorResistanceSet'),
     'HumanAggressorNoFreezeResistanceSet': new ResistanceGroup('HumanAggressorNoFreezeResistanceSet'),
     'HumanAggressorHardResistanceSet': new ResistanceGroup('HumanAggressorHardResistanceSet'),
+    'PreludeShockedGuyResistanceSet': new ResistanceGroup('PreludeShockedGuyResistanceSet'), // This one is used for the enemies in the first area.
     'MeleeThugResistanceSet': new ResistanceGroup('MeleeThugResistanceSet'),
     'CeilingCrawlerResistanceSet': new ResistanceGroup('CeilingCrawlerResistanceSet'),
     'AssassinResistanceSet': new ResistanceGroup('AssassinResistanceSet'),
