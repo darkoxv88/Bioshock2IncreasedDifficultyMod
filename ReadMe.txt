@@ -59,7 +59,7 @@ Changelog:
 -> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.2 * 1.1
 -> The cost of all Ammo is now calculated: BASE_COST * 1.2
 -> Telekinesis 3 can be bought in Fontaine Futuristics and from there on
--> Player: default (none Drill) melee swings do slightly more damage (+12%)
+-> Player: default (none Drill) melee swings damage increased by 12%
 -> Player: Drill Swing damage reduced by 5%
 -> Player: Drill Spin damage increased by 6.67%
 -> Player: increased the Electric damage in water taken by 118.8%
@@ -106,10 +106,15 @@ Info: The base for this mod is Insane3
 Changelog:
 
 -> Thuggish Splicers take 15% less damage (excluding the ones in the first area (Prelude))
+-> Big Sisters take 5% less damage
 -> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.5 * 1.15
 -> The cost of all Ammo is now calculated: BASE_COST * 1.5
 -> The cost of all Consumables is now calculated: BASE_COST * 1.5 * 1.1
 -> Circus of Values: the only Ammo it sells is Drill Fuel and Rivets
 -> Circus of Values: sells more snacks, drinks and food
+-> Player: default (none Drill) melee swings damage reduced by 21.4%
+-> Player: Drill Swing damage reduced by 20%
+-> Player: All Weapon damage reduced by 20%
 -> Player: increased the Electric damage in water taken by 4%
+-> Player: reduced Telekinesis damage by 20%
 -> Player: sets the damage taken multiplier to 1.15
