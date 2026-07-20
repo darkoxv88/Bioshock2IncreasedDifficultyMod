@@ -78,7 +78,7 @@ Changelog:
 -> Looting a killed Rosie Big Daddy gives a little less resources
 -> Hacking: removed the Bonus (Blue) zone from the Safe minigame
 -> Hacking: increases the needle speed by 3 units (depending on the original speed the increase is about 10%-20%)
--> Increases Thuggish Splicer damage by 10%
+-> Increases Thuggish Splicers damage by 10%
 -> Brute Splicers take 10% less damage
 -> Alpha Series Big Daddy takes 10% less damage
 -> Increased Security Bot damage against the Player by 25%
@@ -105,4 +105,6 @@ Info: The base for this mod is Insane3
 
 Changelog:
 
--> 
+-> Thuggish Splicers take 15% less damage
+-> Player: increased the Electric damage in water taken by 4%
+-> Player: sets the damage taken multiplier to 1.15

@@ -57,7 +57,7 @@
     }
 
     create(line) {
-      const globalCostMultiplier = 1.4;
+      const globalCostMultiplier = 1.5;
       const hacked = line.includes('DisplayWhenHacked=True');
       const cost = (((hacked ? 0.8 : 1) * globalCostMultiplier) * this.costMultiplier).toFixed(3);
       const displayWhenUnHacked = hacked ? 'False' : 'True';
@@ -246,6 +246,7 @@
   const allResistanceGroups = {
     'HumanAggressorResistanceSetEasy': new ResistanceGroup('HumanAggressorResistanceSetEasy'),
     'HumanAggressorResistanceSet': new ResistanceGroup('HumanAggressorResistanceSet'),
+    'HumanAggressorNoFreezeResistanceSet': new ResistanceGroup('HumanAggressorNoFreezeResistanceSet'),
     'HumanAggressorHardResistanceSet': new ResistanceGroup('HumanAggressorHardResistanceSet'),
     'MeleeThugResistanceSet': new ResistanceGroup('MeleeThugResistanceSet'),
     'CeilingCrawlerResistanceSet': new ResistanceGroup('CeilingCrawlerResistanceSet'),
