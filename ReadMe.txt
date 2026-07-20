@@ -109,5 +109,7 @@ Changelog:
 -> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.5 * 1.15
 -> The cost of all Ammo is now calculated: BASE_COST * 1.5
 -> The cost of all Consumables is now calculated: BASE_COST * 1.5 * 1.1
+-> Circus of Values: the only Ammo it sells is Drill Fuel and Rivets
+-> Circus of Values: sells more snacks, drinks and food
 -> Player: increased the Electric damage in water taken by 4%
 -> Player: sets the damage taken multiplier to 1.15
