@@ -199,6 +199,10 @@
     ...securityCommandResistances,
   }
 
+  const customResistances = {
+    
+  }
+
   class ResistanceGroup {
     constructor(className) {
       this.className = className;

@@ -105,6 +105,7 @@ Info: The base for this mod is Insane3
 
 Changelog:
 
+-> Reduced the amount of resources drop form the generic Ammo/Alt-Ammo drops
 -> Thuggish Splicers take 15% less damage (excluding the ones in the first area (Prelude))
 -> Big Sisters take 5% less damage
 -> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.5 * 1.15
@@ -112,9 +113,10 @@ Changelog:
 -> The cost of all Consumables is now calculated: BASE_COST * 1.5 * 1.1
 -> Circus of Values: the only Ammo it sells is Drill Fuel and Rivets
 -> Circus of Values: sells more snacks, drinks and food
+-> Player: Enraged Plasmid duration reduced by 25% on Big Sisters, Big Daddies, Alpha Series and Brute Splicers
 -> Player: default (none Drill) melee swings damage reduced by 21.4%
 -> Player: Drill Swing damage reduced by 20%
--> Player: All Weapon damage reduced by 20%
+-> Player: All Weapons damage reduced by 20%
 -> Player: increased the Electric damage in water taken by 4%
 -> Player: reduced Telekinesis damage by 20%
 -> Player: sets the damage taken multiplier to 1.15
