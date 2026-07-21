@@ -121,4 +121,4 @@ Changelog:
 -> Player: All Weapons damage reduced by 20%
 -> Player: reduced Telekinesis damage by 20%
 -> Player: increased the Electric damage in water taken by 4%
--> Player: sets the damage taken multiplier to 1.15
+-> Player: sets the damage taken multiplier to 1.16
