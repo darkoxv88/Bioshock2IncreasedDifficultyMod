@@ -118,6 +118,6 @@ Changelog:
 -> Player: default (none Drill) melee swings damage reduced by 21.4%
 -> Player: Drill Swing damage reduced by 20%
 -> Player: All Weapons damage reduced by 20%
--> Player: increased the Electric damage in water taken by 4%
 -> Player: reduced Telekinesis damage by 20%
+-> Player: increased the Electric damage in water taken by 4%
 -> Player: sets the damage taken multiplier to 1.15
