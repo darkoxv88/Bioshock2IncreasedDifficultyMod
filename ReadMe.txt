@@ -109,6 +109,7 @@ Changelog:
 -> Thuggish Splicers take 15% less damage (excluding the ones in the first area (Prelude))
 -> Big Sisters take 5% less damage
 -> Reduced Security Bot damage against NPCs by 5%
+-> Father Simon Wales: Takes 10% less damage
 -> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.5 * 1.15
 -> The cost of all Ammo is now calculated: BASE_COST * 1.5
 -> The cost of all Consumables is now calculated: BASE_COST * 1.5 * 1.1
