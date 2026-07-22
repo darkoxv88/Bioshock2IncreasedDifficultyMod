@@ -7,6 +7,7 @@ Here is what you have to do to get this mod to work correctly on base game.
 3) Drag the contents of the chosen difficulty folder into your 'Bioshock 2/SP/Content' directory' and if it asks to overwrite, click overwrite everything.
   - NOTE: If the mod will not work you should also rename ConfigINI.ibf to ConfigINI.ibf.bak and move Localizedint.lbf to the System Folder.
 4) Now would you kindly start a new game since it is required to make this mod work correctly.
+  -NOTE:
 
 Here is what you have to do to get this mod to work correctly on the remastered game.
 
@@ -27,7 +28,7 @@ The latest and hardest difficulty in this mod bundle will always be called 'Surv
 
 Insane1:
 
-Info: Changes the game to be very hard
+Info: Changes the game to be very hard. This is the VeryHard mod taken from the mod pack https://www.systemshock.org/index.php?topic=9045.0
 
 Changelog:
 
