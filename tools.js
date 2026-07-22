@@ -280,6 +280,18 @@
     return allResistanceGroups[group.get()].create(line);
   }
 
+  function handleCameraScore(line) {
+    const valueMultiplier = 1.12;
+
+    if (!line.includes('Scores=')) {
+      return line;
+    } 
+
+    const scoreValue = parseInt(parseInt(line.split('Scores=')[1]) * valueMultiplier);
+
+    return 'CursorSpeed=' + scoreValue.toString();
+  }
+
   class FileHandler {
     constructor(file) {
       this.reader = new FileReader();
@@ -288,6 +300,7 @@
       this.handleVendorItem = handleVendorItem;
       this.handleHackingSpeed = handleHackingSpeed;
       this.handleResistances = handleResistances;
+      this.handleCameraScore = handleCameraScore;
     }
 
     handle(lines) {
