@@ -135,7 +135,7 @@ Changelog:
 
 -> Looting a killed Big Daddy now gives a little less Money
 -> Looting a killed Big Sister now gives a little less Money
--> Player: Incinerat Plasmid damage reduced by 10%
+-> Player: Incinerate Plasmid damage reduced by 10%
 -> Player: Shotgun 00Buck Ammo damage reduced by 15.8%
 -> Player: Shotgun Solid Slug Ammo damage reduced by 15%
 -> Player: Shotgun Solid Slug Ammo anit-personnel damage reduced by 14.7%
