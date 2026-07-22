@@ -225,7 +225,7 @@
     }
 
     create(line) {
-      const toModify = securityCommandResistances;
+      const toModify = customResistances;
       const resistanceMultiplier = 1;
       const applyChanceMultiplier = 1;
       
@@ -308,7 +308,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleCameraScore(lines[line], targetId);
+        lines[line] = this.handleResistances(lines[line], targetId);
       }
 
       const edited = lines.join('\n');

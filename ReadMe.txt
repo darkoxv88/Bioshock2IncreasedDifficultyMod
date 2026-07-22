@@ -1,15 +1,15 @@
 *How to install this mod*
 
-Here is what you have to do to get this mod to work correctly on base game.
+Here is what you have to do to get this mod to work correctly on Bioshock 2 original game.
 
 1) Go to your 'Bioshock 2/SP/Content' directory.
 2) Make a copy of you System Folder, ConfigINI.ibf, and Localizedint.lbf, incase you want to remove this mod or it would cause problems running the game.
 3) Drag the contents of the chosen difficulty folder into your 'Bioshock 2/SP/Content' directory' and if it asks to overwrite, click overwrite everything.
   - NOTE: If the mod will not work you should also rename ConfigINI.ibf to ConfigINI.ibf.bak and move Localizedint.lbf to the System Folder.
 4) Now would you kindly start a new game since it is required to make this mod work correctly.
-  -NOTE:
+  - NOTE: After installing, sometimes the mod might partially load when starting a new game. To fix it create a save and load it.
 
-Here is what you have to do to get this mod to work correctly on the remastered game.
+Here is what you have to do to get this mod to work correctly on the Bioshock 2 Remastered game.
 
 1) Go to your 'steamapps/common/BioShock 2 Remastered/ContentBaked/pc'
 2) Drag the contents of the chosen difficulty folder into your 'steamapps/common/BioShock 2 Remastered/ContentBaked/pc' directory and if it asks to overwrite, click overwrite everything.
@@ -136,9 +136,11 @@ Changelog:
 -> Looting a killed Big Daddy now gives a little less Money
 -> Looting a killed Big Sister now gives a little less Money
 -> Player: Incinerate Plasmid damage reduced by 10%
+-> Player: all shoked/electric stun duration inflicted to enemies is reduced by 20%
+-> Player: all frozen stun duration inflicted to enemies is reduced by 30%
 -> Player: Shotgun 00Buck Ammo damage reduced by 15.8%
 -> Player: Shotgun Solid Slug Ammo damage reduced by 15%
--> Player: Shotgun Solid Slug Ammo anit-personnel damage reduced by 14.7%
+-> Player: Shotgun Solid Slug Ammo anit-personnel damage further reduced by 14.7%
 -> Player: Shotgun Phosphorus Buck Ammo headshot damage multiplier decreased from 1.5 to 1.35
 -> Player: Shotgun Solid Slug Ammo headshot damage multiplier decreased from 2.0 to 1.65
 -> Player: increased the Electric damage in water taken by 5%
