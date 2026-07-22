@@ -135,3 +135,5 @@ Changelog:
 
 -> Looting a killed Big Daddy now gives a little less Money
 -> Looting a killed Big Sister now gives a little less Money
+-> Player: increased the Electric damage in water taken by 5%
+-> Player: sets the damage taken multiplier to 1.22
