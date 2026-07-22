@@ -133,4 +133,5 @@ Info: The base for this mod is Insane4
 
 Changelog:
 
--> 
+-> Looting a killed Big Daddy now gives a little less Money
+-> Looting a killed Big Sister now gives a little less Money
