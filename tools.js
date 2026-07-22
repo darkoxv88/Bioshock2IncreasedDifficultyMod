@@ -281,15 +281,15 @@
   }
 
   function handleCameraScore(line) {
-    const valueMultiplier = 1.12;
+    const valueMultiplier = 1.0;
 
     if (!line.includes('Scores=')) {
       return line;
     } 
 
-    const scoreValue = parseInt(parseInt(line.split('Scores=')[1]) * valueMultiplier);
+    const scoreValue = (parseInt(line.split('Scores=')[1]) * valueMultiplier);
 
-    return 'CursorSpeed=' + scoreValue.toString();
+    return 'Scores=' + scoreValue.toFixed(0)
   }
 
   class FileHandler {
@@ -308,7 +308,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleVendorItem(lines[line], targetId);
+        lines[line] = this.handleCameraScore(lines[line], targetId);
       }
 
       const edited = lines.join('\n');

@@ -116,6 +116,7 @@ Changelog:
 -> The cost of all Consumables is now calculated: BASE_COST * 1.5 * 1.1
 -> Circus of Values: the only Ammo it sells is Drill Fuel and Rivets
 -> Circus of Values: sells more snacks, drinks and food
+-> Player: Reaserch points acquisition increased by 12%
 -> Player: Enraged Plasmid duration reduced by 25% on Big Sisters, Big Daddies, Alpha Series and Brute Splicers
 -> Player: default (none Drill) melee swings damage reduced by 21.4%
 -> Player: Drill Swing damage reduced by 20%
