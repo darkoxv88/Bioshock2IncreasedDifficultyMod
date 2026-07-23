@@ -135,12 +135,15 @@ Changelog:
 
 -> Looting a killed Big Daddy now gives a little less Money
 -> Looting a killed Big Sister now gives a little less Money
+-> Explosive Barrel damage increased by 10%
+-> Thuggish Splicers take 5% less damage (excluding the ones in the first area (Prelude))
+-> Leadhead Splicers take 12% less damage (excluding the ones in the first area (Prelude))
 -> Player: Incinerate Plasmid damage reduced by 10%
 -> Player: all shoked/electric stun duration inflicted to enemies is reduced by 20%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 30%
 -> Player: Shotgun 00Buck Ammo damage reduced by 15.8%
 -> Player: Shotgun Solid Slug Ammo damage reduced by 15%
--> Player: Shotgun Solid Slug Ammo anit-personnel damage further reduced by 14.7%
+-> Player: Shotgun Solid Slug Ammo anti-personnel damage further reduced by 14.7%
 -> Player: Shotgun Phosphorus Buck Ammo headshot damage multiplier decreased from 1.5 to 1.35
 -> Player: Shotgun Solid Slug Ammo headshot damage multiplier decreased from 2.0 to 1.65
 -> Player: increased the Electric damage in water taken by 5%
