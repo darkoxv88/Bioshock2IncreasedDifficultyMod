@@ -138,6 +138,7 @@ Changelog:
 -> Explosive Barrel damage increased by 10%
 -> Thuggish Splicers take 5% less damage (excluding the ones in the first area (Prelude))
 -> Leadhead Splicers take 12% less damage (excluding the ones in the first area (Prelude))
+-> Big Sisters take 5% less damage
 -> Player: Incinerate Plasmid damage reduced by 10%
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 20%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 30%
