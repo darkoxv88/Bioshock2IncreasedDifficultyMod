@@ -136,6 +136,7 @@ Changelog:
 -> Looting a killed Big Daddy now gives a little less Money
 -> Looting a killed Big Sister now gives a little less Money
 -> Explosive Barrel damage increased by 10%
+-> Splicers in the the first area (Prelude) take 8% less damage
 -> Thuggish Splicers take 5% less damage (excluding the ones in the first area (Prelude))
 -> Leadhead Splicers take 12% less damage (excluding the ones in the first area (Prelude))
 -> Spider Splicers take 8% less damage
@@ -143,9 +144,11 @@ Changelog:
 -> Player: Incinerate Plasmid damage reduced by 10%
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 20%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 30%
+-> Player: Machine Gun Antipersonnel Ammo lowered the anti-personnel type damage by 12.5%
+-> Player: Machine Gun Armor Piercing Ammo lowered the anti-armor type damage by 12.5%
 -> Player: Shotgun 00Buck Ammo damage reduced by 15.8%
 -> Player: Shotgun Solid Slug Ammo damage reduced by 15%
--> Player: Shotgun Solid Slug Ammo anti-personnel damage further reduced by 14.7%
+-> Player: Shotgun Solid Slug Ammo anti-personnel type damage further reduced by 14.7%
 -> Player: Shotgun Phosphorus Buck Ammo headshot damage multiplier decreased from 1.5 to 1.35
 -> Player: Shotgun Solid Slug Ammo headshot damage multiplier decreased from 2.0 to 1.65
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo direct hit damage reduced by 4%
