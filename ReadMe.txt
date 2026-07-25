@@ -4,7 +4,7 @@ Here is what you have to do to get this mod to work correctly on Bioshock 2 orig
 
 1) Go to your 'Bioshock 2/SP/Content' directory.
 2) Make a copy of you System Folder, ConfigINI.ibf, and Localizedint.lbf, incase you want to remove this mod or it would cause problems running the game.
-3) Drag the contents of the chosen difficulty folder into your 'Bioshock 2/SP/Content' directory' and if it asks to overwrite, click overwrite everything.
+3) Drag the "System" folder of the chosen difficulty folder into your 'Bioshock 2/SP/Content' directory' and if it asks to overwrite, click overwrite everything.
   - NOTE: If the mod will not work you should also rename ConfigINI.ibf to ConfigINI.ibf.bak and move Localizedint.lbf to the System Folder.
 4) Now would you kindly start a new game since it is required to make this mod work correctly.
   - NOTE: After installing, sometimes the mod might partially load when starting a new game. To fix it create a save and load it.
@@ -12,7 +12,7 @@ Here is what you have to do to get this mod to work correctly on Bioshock 2 orig
 Here is what you have to do to get this mod to work correctly on the Bioshock 2 Remastered game.
 
 1) Go to your 'steamapps/common/BioShock 2 Remastered/ContentBaked/pc'
-2) Drag the contents of the chosen difficulty folder into your 'steamapps/common/BioShock 2 Remastered/ContentBaked/pc' directory and if it asks to overwrite, click overwrite everything.
+2) Drag the "System" folder of the chosen difficulty folder into your 'steamapps/common/BioShock 2 Remastered/ContentBaked/pc' directory and if it asks to overwrite, click overwrite everything.
 	- NOTE: the game might move the mod files from the 'System' folder to its parent folder and in that case the game mod will still work.
 3) Now would you kindly start a new game since it is required to make this mod work correctly.
 
@@ -152,5 +152,6 @@ Changelog:
 -> Player: Shotgun Phosphorus Buck Ammo headshot damage multiplier decreased from 1.5 to 1.35
 -> Player: Shotgun Solid Slug Ammo headshot damage multiplier decreased from 2.0 to 1.65
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo direct hit damage reduced by 4%
+-> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.0 to 2.1
 -> Player: increased the Electric damage in water taken by 5%
 -> Player: sets the damage taken multiplier to 1.22
