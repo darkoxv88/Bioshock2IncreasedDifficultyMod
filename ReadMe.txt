@@ -2,19 +2,29 @@
 
 Here is what you have to do to get this mod to work correctly on Bioshock 2 original game.
 
-1) Go to your 'Bioshock 2/SP/Content' directory.
+1) Go to your "steamapps/common/Bioshock 2/SP/Content" directory.
 2) Make a copy of you System Folder, ConfigINI.ibf, and Localizedint.lbf, incase you want to remove this mod or it would cause problems running the game.
-3) Drag the "System" folder of the chosen difficulty folder into your 'Bioshock 2/SP/Content' directory' and if it asks to overwrite, click overwrite everything.
+3) Drag the "System" folder of the chosen difficulty folder into your 'steamapps/common/Bioshock 2/SP/Content' directory' and if it asks to overwrite, click overwrite everything.
   - NOTE: If the mod will not work you should also rename ConfigINI.ibf to ConfigINI.ibf.bak and move Localizedint.lbf to the System Folder.
 4) Now would you kindly start a new game since it is required to make this mod work correctly.
   - NOTE: After installing, sometimes the mod might partially load when starting a new game. To fix it create a save and load it.
+
+
+
+RECOMMENDED:
 
 Here is what you have to do to get this mod to work correctly on the Bioshock 2 Remastered game.
 
 1) Go to your 'steamapps/common/BioShock 2 Remastered/ContentBaked/pc'
 2) Drag the "System" folder of the chosen difficulty folder into your 'steamapps/common/BioShock 2 Remastered/ContentBaked/pc' directory and if it asks to overwrite, click overwrite everything.
 	- NOTE: the game might move the mod files from the 'System' folder to its parent folder and in that case the game mod will still work.
-3) Now would you kindly start a new game since it is required to make this mod work correctly.
+3) Optional: for the Remastered version of the game I also changed some things in the Maps to make it harder. To apply this changes do the following:
+  - Download TFC Installer https://www.nexusmods.com/site/mods/588?tab=description and run it
+  - Set the game directory "steamapps/common/Bioshock 2 Remastered"
+  - Chose the mod pack from the 'RemasteredMapChanges' directory
+  - Click the Update button
+  - NOTE: multiple mod packages can be installed this way
+4) Now would you kindly start a new game since it is required to make this mod work correctly.
 
 
 
@@ -23,7 +33,7 @@ Here is what you have to do to get this mod to work correctly on the Bioshock 2 
 This mod bundle was created with the idea to make multiple difficulties for the Bioshock 2 game. 
 Each new difficulty builds upon the previous one and is meant to be incrementally harder than the difficulty it is based on.
 The latest and hardest difficulty in this mod bundle will always be called 'Survivor'.
-
+There will also be map changes for the Remastered version of the game and in the difficulty descriptions I will only recommend which one to use
 
 
 Insane1:
@@ -49,11 +59,11 @@ Changelog:
 -> Looting a killed enemy gives a little less resources in the first area (Prelude)
 -> Looting a killed enemy gives a little less resources in the second area (Atlantic Express)
 -> Looting a killed enemy gives a little less resources in the third area (Ryan Amusements)
--> Reduced the frequency of the generic Money drops
+-> Reduced the frequency of the generic Dollar drops
 -> Reduced the amount of resources drop form the generic Ammo/Alt-Ammo drops
 -> Looting a killed Spider Splicer now gives a little less resources
--> Looting a killed Big Daddy now gives less Money
--> Looting a killed Big Sister now gives less Money
+-> Looting a killed Big Daddy now gives less Dollars
+-> Looting a killed Big Sister now gives less Dollars
 -> The Big Sister from the duo fight now gives 80 ADAM
 -> Father Simon Wales: Takes 5% less damage
 -> Father Simon Wales: Security Command Plasmid effectiveness on this target is reduced by 50%
@@ -133,13 +143,14 @@ Info: The base for this mod is Insane4
 
 Changelog:
 
--> Looting a killed Big Daddy now gives a little less Money
--> Looting a killed Big Sister now gives a little less Money
+-> Looting a killed Big Daddy now gives a little less Dollars
+-> Looting a killed Big Sister now gives a little less Dollars
 -> Explosive Barrel damage increased by 10%
 -> Splicers in the the first area (Prelude) take 8% less damage
 -> Thuggish Splicers take 5% less damage (excluding the ones in the first area (Prelude))
 -> Leadhead Splicers take 12% less damage (excluding the ones in the first area (Prelude))
 -> Spider Splicers take 8% less damage
+-> Houdini Splicers take 12% less damage
 -> Big Sisters take 5% less damage
 -> Player: Incinerate Plasmid damage reduced by 10%
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 20%
@@ -155,3 +166,34 @@ Changelog:
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.0 to 2.1
 -> Player: increased the Electric damage in water taken by 5%
 -> Player: sets the damage taken multiplier to 1.22
+
+
+
+*************************************************************************************************************************************************************
+The folowing mods are considered Map edits and must be loaded using TFC Installer
+*************************************************************************************************************************************************************
+
+
+
+HarderMaps:
+
+Info: -
+
+Changelog:
+
+-> Health Station const increased to 20 Dollars
+-> Hacked Health Station cost multiplier set to 0.8
+-> Bouncer Big Daddy in the third area (Ryan Amusements) now gives less Dollars
+-> Safes: reduced Dollars found by 40%-75%
+-> Safes: reduced some Ammo found by 20%-75%
+-> Some Corpses give less Dollars
+
+
+
+EditablePickups:
+
+Info: -
+
+Changelog:
+
+-> Created new custom groups (the name of this group will always start with "Custom_") in the LootTables_perobjectconfig.ini file for edits of certain pickups

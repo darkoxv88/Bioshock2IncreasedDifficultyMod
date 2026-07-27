@@ -1,0 +1,3 @@
+EditablePickups:
+  Ghetto: DrillAmmo_Pickup18 -> test/fix it
+  Ghetto: HighPowerRivet_Pickup4 -> test/fix it
