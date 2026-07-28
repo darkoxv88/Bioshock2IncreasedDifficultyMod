@@ -1,3 +1,7 @@
+Most of this changes DO NOT apply to the DLC Minervas Den
+
+
+
 *How to install this mod*
 
 Here is what you have to do to get this mod to work correctly on Bioshock 2 original game.
@@ -18,7 +22,7 @@ Here is what you have to do to get this mod to work correctly on the Bioshock 2 
 1) Go to your 'steamapps/common/BioShock 2 Remastered/ContentBaked/pc'
 2) Drag the "System" folder of the chosen difficulty folder into your 'steamapps/common/BioShock 2 Remastered/ContentBaked/pc' directory and if it asks to overwrite, click overwrite everything.
 	- NOTE: the game might move the mod files from the 'System' folder to its parent folder and in that case the game mod will still work.
-3) Optional: for the Remastered version of the game I also changed some things in the Maps to make it harder. To apply this changes do the following:
+3) RECOMMENDED: for the Remastered version of the game I also changed some things in the Maps to make it harder. To apply this changes do the following:
   - Download TFC Installer https://www.nexusmods.com/site/mods/588?tab=description and run it
   - Set the game directory "steamapps/common/Bioshock 2 Remastered"
   - Chose the mod pack from the 'RemasteredMapChanges' directory
@@ -155,11 +159,12 @@ Changelog:
 -> Player: Incinerate Plasmid damage reduced by 10%
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 20%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 30%
--> Player: Machine Gun Antipersonnel Ammo lowered the anti-personnel type damage by 12.5%
--> Player: Machine Gun Armor Piercing Ammo lowered the anti-armor type damage by 12.5%
+-> Player: Machine Gun Antipersonnel Ammo reduced the anti-personnel type damage by 12.5%
+-> Player: Machine Gun Armor Piercing Ammo reduced the anti-armor type damage by 12.5%
 -> Player: Shotgun 00Buck Ammo damage reduced by 15.8%
 -> Player: Shotgun Solid Slug Ammo damage reduced by 15%
 -> Player: Shotgun Solid Slug Ammo anti-personnel type damage further reduced by 14.7%
+-> Player: Shotgun 00Buck Ammo headshot damage multiplier increased from 1.15 to 1.25
 -> Player: Shotgun Phosphorus Buck Ammo headshot damage multiplier decreased from 1.5 to 1.35
 -> Player: Shotgun Solid Slug Ammo headshot damage multiplier decreased from 2.0 to 1.65
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo direct hit damage reduced by 4%
@@ -187,6 +192,7 @@ Changelog:
 -> Safes: reduced Dollars found by 40%-75%
 -> Safes: reduced some Ammo found by 20%-75%
 -> Some Corpses give less Dollars
+-> Player: maximum Dollars limit raised from 600 to 750
 
 
 
