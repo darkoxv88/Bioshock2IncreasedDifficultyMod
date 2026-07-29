@@ -1,18 +1,22 @@
 EditablePickups:
   Ghetto: HighPowerRivet_Pickup4 -> test/fix it
+  RedLight: SMGArmorPiercing_Pickup2 -> test/fix it
+  RedLight: SMGArmorPiercing_Pickup3 -> test/fix it
+  RedLight: SMGArmorPiercing_Pickup5 -> test/fix it
+  RedLight: SMGArmorPiercing_Pickup6 -> test/fix it
+  RedLight: SMGArmorPiercing_Pickup7 -> test/fix it
   Gallery: DrillAmmo_Pickup14 -> test/fix it
   Gallery: DrillAmmo_Pickup16 -> test/fix it
-  Gallery: SMGArmorPiercing_Pickup2 -> test/fix it
-  Gallery: SMGArmorPiercing_Pickup3 -> test/fix it
-  Gallery: SMGArmorPiercing_Pickup5 -> test/fix it
-  Gallery: SMGArmorPiercing_Pickup6 -> test/fix it
-  Gallery: SMGArmorPiercing_Pickup7 -> test/fix it
+  Galery: SMGArmorPiercing_Pickup2 -> test/fix it
   Abbys: DrillAmmo_Pickup3 -> test/fix it
   Abbys: DrillAmmo_Pickup4 -> test/fix it
   Abbys: DrillAmmo_Pickup5 -> test/fix it
   Abbys: DrillAmmo_Pickup6 -> test/fix it
   Abbys: DrillAmmo_Pickup7 -> test/fix it
   Abbys: DrillAmmo_Pickup8 -> test/fix it
+  Abbys: 00Buck_Pickup5 -> test/fix it
+  Abbys: RocketSpear_Pickup3 -> test/fix it
   Gulag: Cash_Pickup4 -> test/fix it
   Gulag: DrillAmmo_Pickup7 -> test/fix it
+  Gulag: SMG40Cal_Pickup4 -> test/fix it
   

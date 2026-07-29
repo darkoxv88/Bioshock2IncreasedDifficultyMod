@@ -23,9 +23,9 @@ Here is what you have to do to get this mod to work correctly on the Bioshock 2 
 2) Drag the "System" folder of the chosen difficulty folder into your 'steamapps/common/BioShock 2 Remastered/ContentBaked/pc' directory and if it asks to overwrite, click overwrite everything.
 	- NOTE: the game might move the mod files from the 'System' folder to its parent folder and in that case the game mod will still work.
 3) RECOMMENDED: for the Remastered version of the game I also changed some things in the Maps to make it harder. To apply this changes do the following:
-  - Download TFC Installer https://www.nexusmods.com/site/mods/588?tab=description and run it
+  - Download TFC Installer https://www.nexusmods.com/site/mods/588?tab=description extract it and run it
   - Set the game directory "steamapps/common/Bioshock 2 Remastered"
-  - Chose the mod pack from the 'RemasteredMapChanges' directory
+  - Chose the mod pack from the 'RemasteredGameMapChanges' directory
   - Click the Update button
   - NOTE: multiple mod packages can be installed this way
 4) Now would you kindly start a new game since it is required to make this mod work correctly.
@@ -37,7 +37,6 @@ Here is what you have to do to get this mod to work correctly on the Bioshock 2 
 This mod bundle was created with the idea to make multiple difficulties for the Bioshock 2 game. 
 Each new difficulty builds upon the previous one and is meant to be incrementally harder than the difficulty it is based on.
 The latest and hardest difficulty in this mod bundle will always be called 'Survivor'.
-There will also be map changes for the Remastered version of the game and in the difficulty descriptions I will only recommend which one to use
 
 
 Insane1:
@@ -53,6 +52,11 @@ Changelog:
 Insane2:
 
 Info: The base for this mod is Insane1
+
+Recommended to install the following: 
+
+-> HarderMaps
+-> EditablePickups
 
 Changelog:
 
@@ -86,6 +90,11 @@ Insane3:
 
 Info: The base for this mod is Insane2
 
+Recommended to install the following: 
+
+-> HarderMaps
+-> EditablePickups
+
 Changelog:
 
 -> Looting a killed enemy gives a little less resources in the first area (Prelude)
@@ -118,6 +127,11 @@ Insane4:
 
 Info: The base for this mod is Insane3
 
+Recommended to install the following: 
+
+-> HarderMaps
+-> EditablePickups
+
 Changelog:
 
 -> Reduced the amount of resources drop form the generic Ammo/Alt-Ammo drops
@@ -144,6 +158,11 @@ Changelog:
 Insane5:
 
 Info: The base for this mod is Insane4
+
+Recommended to install the following: 
+
+-> HarderMaps
+-> EditablePickups
 
 Changelog:
 
@@ -189,10 +208,13 @@ Changelog:
 -> Health Station const increased to 20 Dollars
 -> Hacked Health Station cost multiplier set to 0.8
 -> Bouncer Big Daddy in the third area (Ryan Amusements) now gives less Dollars
--> Safes: reduced Dollars found by 40%-75%
--> Safes: reduced some Ammo found by 20%-75%
+-> Safes: reduced Dollars found by 40%-65%
+-> Safes: reduced some Ammo found by 20%-50%
 -> Some Corpses give less Dollars
 -> Player: maximum Dollars limit raised from 600 to 750
+-> Player: Rivet Gun Rivet Ammo maximum carry capacity increased from 60 to 72
+-> Player: Rivet Gun Trap Rivet Ammo maximum carry capacity increased from 24 to 36
+-> Player: Rivet Gun Heavy Rivet Ammo maximum carry capacity increased from 24 to 36
 
 
 
