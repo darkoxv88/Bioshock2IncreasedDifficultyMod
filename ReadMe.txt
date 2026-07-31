@@ -10,7 +10,13 @@ Here is what you have to do to get this mod to work correctly on Bioshock 2 orig
 2) Make a copy of you System Folder, ConfigINI.ibf, and Localizedint.lbf, incase you want to remove this mod or it would cause problems running the game.
 3) Drag the "System" folder of the chosen difficulty folder into your 'steamapps/common/Bioshock 2/SP/Content' directory' and if it asks to overwrite, click overwrite everything.
   - NOTE: If the mod will not work you should also rename ConfigINI.ibf to ConfigINI.ibf.bak and move Localizedint.lbf to the System Folder.
-4) Now would you kindly start a new game since it is required to make this mod work correctly.
+4) RECOMMENDED: for the Original version of the game I also changed some things in the Maps to make it harder. To apply this changes do the following:
+  - Download TFC Installer https://www.nexusmods.com/site/mods/588?tab=description extract it and run it
+  - Set the game directory "steamapps/common/Bioshock 2 Remastered"
+  - Chose the version from the mod pack 'RemasteredGameMapChanges' directory
+  - Click the Update button
+  - NOTE: multiple mod packages can be installed this way
+5) Now would you kindly start a new game since it is required to make this mod work correctly.
   - NOTE: After installing, sometimes the mod might partially load when starting a new game. To fix it create a save and load it.
 
 
@@ -25,7 +31,7 @@ Here is what you have to do to get this mod to work correctly on the Bioshock 2 
 3) RECOMMENDED: for the Remastered version of the game I also changed some things in the Maps to make it harder. To apply this changes do the following:
   - Download TFC Installer https://www.nexusmods.com/site/mods/588?tab=description extract it and run it
   - Set the game directory "steamapps/common/Bioshock 2 Remastered"
-  - Chose the mod pack from the 'RemasteredGameMapChanges' directory
+  - Chose the version from the mod pack 'RemasteredGameMapChanges' directory
   - Click the Update button
   - NOTE: multiple mod packages can be installed this way
 4) Now would you kindly start a new game since it is required to make this mod work correctly.
@@ -53,10 +59,7 @@ Insane2:
 
 Info: The base for this mod is Insane1
 
-Recommended to install the following: 
-
--> HarderMaps
--> EditablePickups
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -90,10 +93,7 @@ Insane3:
 
 Info: The base for this mod is Insane2
 
-Recommended to install the following: 
-
--> HarderMaps
--> EditablePickups
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -127,10 +127,7 @@ Insane4:
 
 Info: The base for this mod is Insane3
 
-Recommended to install the following: 
-
--> HarderMaps
--> EditablePickups
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -159,10 +156,7 @@ Insane5:
 
 Info: The base for this mod is Insane4
 
-Recommended to install the following: 
-
--> HarderMaps
--> EditablePickups
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -181,8 +175,8 @@ Changelog:
 -> Player: Machine Gun Antipersonnel Ammo reduced the anti-personnel type damage by 12.5%
 -> Player: Machine Gun Armor Piercing Ammo reduced the anti-armor type damage by 12.5%
 -> Player: Shotgun 00Buck Ammo damage reduced by 15.8%
--> Player: Shotgun Solid Slug Ammo damage reduced by 15%
--> Player: Shotgun Solid Slug Ammo anti-personnel type damage further reduced by 14.7%
+-> Player: Shotgun Solid Slug Ammo damage reduced by 10%
+-> Player: Shotgun Solid Slug Ammo anti-personnel type damage further reduced by 11.1%
 -> Player: Shotgun 00Buck Ammo headshot damage multiplier increased from 1.15 to 1.25
 -> Player: Shotgun Phosphorus Buck Ammo headshot damage multiplier decreased from 1.5 to 1.35
 -> Player: Shotgun Solid Slug Ammo headshot damage multiplier decreased from 2.0 to 1.65
@@ -199,29 +193,24 @@ The folowing mods are considered Map edits and must be loaded using TFC Installe
 
 
 
-HarderMaps:
+RemasteredGameMapChanges && OriginalGameMapChanges:
 
 Info: -
 
-Changelog:
+Changelog Version1:
 
 -> Health Station const increased to 20 Dollars
 -> Hacked Health Station cost multiplier set to 0.8
+-> Created new custom groups (the name of this group will always start with "Custom_") in the LootTables_perobjectconfig.ini file for edits of Dollar pickups
+-> Created new custom groups (the name of this group will always start with "Custom_") in the LootTables_perobjectconfig.ini file for edits of Drill Ammo pickups
+-> Created new custom groups (the name of this group will always start with "Custom_") in the LootTables_perobjectconfig.ini file for edits of Dollars found in Safes
+-> Reduced some Ammo found in Safes by 20%
+-> Reduced Ammo found in Shotgun weapon to 2
+-> Reduced Ammo found in Spear Gun weapon to 5
+-> Reduced the Ammo found in some pickups
 -> Bouncer Big Daddy in the third area (Ryan Amusements) now gives less Dollars
--> Safes: reduced Dollars found by 40%-65%
--> Safes: reduced some Ammo found by 20%-50%
--> Some Corpses give less Dollars
+-> Some static Corpses give less Dollars
 -> Player: maximum Dollars limit raised from 600 to 750
 -> Player: Rivet Gun Rivet Ammo maximum carry capacity increased from 60 to 72
 -> Player: Rivet Gun Trap Rivet Ammo maximum carry capacity increased from 24 to 36
 -> Player: Rivet Gun Heavy Rivet Ammo maximum carry capacity increased from 24 to 36
-
-
-
-EditablePickups:
-
-Info: -
-
-Changelog:
-
--> Created new custom groups (the name of this group will always start with "Custom_") in the LootTables_perobjectconfig.ini file for edits of certain pickups

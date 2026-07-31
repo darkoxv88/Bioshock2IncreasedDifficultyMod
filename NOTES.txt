@@ -1,3 +1,2 @@
 EditablePickups:
   Ghetto: DrillAmmo_Pickup18 -> editing this will break the game
-  Redlight: HighPowerRivet_Pickup14 -> editing this will break the game
