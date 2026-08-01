@@ -174,7 +174,8 @@ Changelog:
 -> Player: all frozen stun duration inflicted to enemies is reduced by 30%
 -> Player: Machine Gun Antipersonnel Ammo reduced the anti-personnel type damage by 12.5%
 -> Player: Machine Gun Armor Piercing Ammo reduced the anti-armor type damage by 12.5%
--> Player: Shotgun 00Buck Ammo damage reduced by 15.8%
+-> Player: Machine Gun (40Cal, Antipersonnel, Armor Piercing) Ammo headshot damage multiplier increased from 1.25 to 1.35
+-> Player: Shotgun 00Buck Ammo damage reduced by 10.53%
 -> Player: Shotgun Solid Slug Ammo damage reduced by 10%
 -> Player: Shotgun Solid Slug Ammo anti-personnel type damage further reduced by 11.1%
 -> Player: Shotgun 00Buck Ammo headshot damage multiplier increased from 1.15 to 1.25
