@@ -59,7 +59,7 @@ Insane2:
 
 Info: The base for this mod is Insane1
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
 Changelog:
 
@@ -93,7 +93,7 @@ Insane3:
 
 Info: The base for this mod is Insane2
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
 Changelog:
 
@@ -127,7 +127,7 @@ Insane4:
 
 Info: The base for this mod is Insane3
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
 Changelog:
 
@@ -156,7 +156,7 @@ Insane5:
 
 Info: The base for this mod is Insane4
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
 Changelog:
 
@@ -189,7 +189,7 @@ Changelog:
 
 
 *************************************************************************************************************************************************************
-The folowing mods are considered Map edits and must be loaded using TFC Installer
+The folowing mod is considered Map edits and must be loaded using TFC Installer
 *************************************************************************************************************************************************************
 
 
