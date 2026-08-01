@@ -178,7 +178,7 @@ Changelog:
 -> Player: Shotgun Solid Slug Ammo damage reduced by 10%
 -> Player: Shotgun Solid Slug Ammo anti-personnel type damage further reduced by 11.1%
 -> Player: Shotgun 00Buck Ammo headshot damage multiplier increased from 1.15 to 1.25
--> Player: Shotgun Phosphorus Buck Ammo headshot damage multiplier decreased from 1.5 to 1.35
+-> Player: Shotgun Phosphorus Buck Ammo headshot damage multiplier decreased from 1.5 to 1.45
 -> Player: Shotgun Solid Slug Ammo headshot damage multiplier decreased from 2.0 to 1.65
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo direct hit damage reduced by 4%
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.0 to 2.1
