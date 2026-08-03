@@ -214,7 +214,7 @@ Changelog Version1:
 -> Reduced the Ammo found in some pickups
 -> Bouncer Big Daddy in the third area (Ryan Amusements) now gives less Dollars
 -> Some static Corpses give less Dollars
--> Player: maximum Dollars limit raised from 600 to 750
+-> Player: maximum Dollars limit raised from 600 to 799
 -> Player: Rivet Gun Rivet Ammo maximum carry capacity increased from 60 to 72
 -> Player: Rivet Gun Trap Rivet Ammo maximum carry capacity increased from 24 to 36
 -> Player: Rivet Gun Heavy Rivet Ammo maximum carry capacity increased from 24 to 36
