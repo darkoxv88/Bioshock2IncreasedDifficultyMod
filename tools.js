@@ -200,7 +200,7 @@
   }
 
   const customResistances = {
-    
+
   }
 
   class ResistanceGroup {
@@ -226,7 +226,7 @@
 
     create(line) {
       const toModify = customResistances;
-      const resistanceMultiplier = 1;
+      const resistanceMultiplier = 0.85;
       const applyChanceMultiplier = 1;
       
       const resistanceType = this.readResistanceType(line);
@@ -364,8 +364,7 @@
   }
 
   const customToEaseGroups = {
-    ...toEaseBioAmmo,
-    ...toEaseHealth,
+
   }
 
   function handleToEase(line, group) {
@@ -395,7 +394,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleToEase(lines[line], targetId);
+        lines[line] = this.handleResistances(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
