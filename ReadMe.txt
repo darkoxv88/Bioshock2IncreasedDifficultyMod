@@ -169,6 +169,7 @@ Changelog:
 -> Spider Splicers take 8% less damage
 -> Houdini Splicers take 12% less damage
 -> Big Sisters take 5% less damage
+-> Sinclair: Takes 50% less damage
 -> Player: Incinerate Plasmid damage reduced by 10%
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 20%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 30%
