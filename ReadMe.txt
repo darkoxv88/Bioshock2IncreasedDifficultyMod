@@ -175,7 +175,7 @@ Changelog:
 -> Player: all frozen stun duration inflicted to enemies is reduced by 30%
 -> Player: default (none Drill) melee swings damage increased by 6%
 -> Player: Drill Swing damage reduced by 6%
--> Player: Drill Spin damage increased by 6%
+-> Player: Drill Spin damage reduced by 6%
 -> Player: Machine Gun Antipersonnel Ammo reduced the anti-personnel type damage by 12.5%
 -> Player: Machine Gun Armor Piercing Ammo reduced the anti-armor type damage by 12.5%
 -> Player: Machine Gun (40Cal, Antipersonnel, Armor Piercing) Ammo headshot damage multiplier increased from 1.25 to 1.35
@@ -200,7 +200,7 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 
 Changelog:
 
--> 
+-> Player: sets the damage taken multiplier to 1.28
 
 
 
