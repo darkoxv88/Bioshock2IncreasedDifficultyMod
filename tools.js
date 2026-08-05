@@ -314,7 +314,7 @@
     }
 
     create(line) {
-      const valueMultiplier = 0.5;
+      const valueMultiplier = 0.75;
 
       if (!line.includes('Entries=')) {
         return line;
@@ -364,11 +364,12 @@
   }
 
   const customToEaseGroups = {
-    
+    ...toEaseBioAmmo,
+    ...toEaseHealth,
   }
 
   function handleToEase(line, group) {
-    const groups = toEaseAmmoGroups;
+    const groups = customToEaseGroups;
 
     if (!(group.get() in groups)) {
       return line;
