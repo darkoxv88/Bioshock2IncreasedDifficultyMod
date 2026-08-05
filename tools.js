@@ -57,7 +57,7 @@
     }
 
     create(line) {
-      const globalCostMultiplier = 1.5;
+      const globalCostMultiplier = 1.65;
       const hacked = line.includes('DisplayWhenHacked=True');
       const cost = (((hacked ? 0.8 : 1) * globalCostMultiplier) * this.costMultiplier).toFixed(3);
       const displayWhenUnHacked = hacked ? 'False' : 'True';
@@ -71,8 +71,8 @@
   }
 
   const vendorItems = {
-    'ShockDesignerClasses.MedHypo': new VendorItem('ShockDesignerClasses.MedHypo', 'Pickups.MedHypo_Pickup', 1.15),
-    'ShockDesignerClasses.BioAmmoHypo': new VendorItem('ShockDesignerClasses.BioAmmoHypo', 'Pickups.EveHypo_Pickup', 1.15),
+    'ShockDesignerClasses.MedHypo': new VendorItem('ShockDesignerClasses.MedHypo', 'Pickups.MedHypo_Pickup', 1.18),
+    'ShockDesignerClasses.BioAmmoHypo': new VendorItem('ShockDesignerClasses.BioAmmoHypo', 'Pickups.EveHypo_Pickup', 1.18),
     
     // Ammo
     'ShockGame.Drill_Ammo': new VendorItem('ShockGame.Drill_Ammo', 'Pickups.DrillAmmo_Pickup', 1.0),
@@ -96,19 +96,19 @@
     'ShockGame.GrenadeLauncher_RPG': new VendorItem('ShockGame.GrenadeLauncher_RPG', 'Pickups.RPG_Pickup', 1.0),
 
     // Consumables
-    'Pickups.FreshWaterPickupItem': new VendorItem('Pickups.FreshWaterPickupItem', 'Pickups.FreshWater_Pickup', 1.1),
-    'Pickups.VitaminsPickupItem': new VendorItem('Pickups.VitaminsPickupItem', 'Pickups.Vitamins_Pickup', 1.1),
-    'Pickups.DrHollcroftsCureAllPickupItem': new VendorItem('Pickups.DrHollcroftsCureAllPickupItem', 'Pickups.DrHollcroftsCureAll_Pickup', 1.1),
-    'Pickups.PottedMeatPickupItem': new VendorItem('Pickups.PottedMeatPickupItem', 'Pickups.PottedMeat_Pickup', 1.1),
-    'Pickups.AspirinPickupItem': new VendorItem('Pickups.AspirinPickupItem', 'Pickups.Aspirin_Pickup', 1.1),
-    'Pickups.SodaPickupItem': new VendorItem('Pickups.SodaPickupItem', 'Pickups.Soda_Pickup', 1.1),
-    'Pickups.TwinkiePickupItem': new VendorItem('Pickups.TwinkiePickupItem', 'Pickups.Twinkie1_Pickup', 1.1),
-    'Pickups.CannedFruitPickupItem': new VendorItem('Pickups.CannedFruitPickupItem', 'Pickups.CannedFruit_Pickup', 1.1),
-    'Pickups.PowerbarPickupItem': new VendorItem('Pickups.PowerbarPickupItem', 'Pickups.Powerbar1_Pickup', 1.1),
-    'Pickups.SardinesPickupItem': new VendorItem('Pickups.SardinesPickupItem', 'Pickups.Sardines_Pickup', 1.1),
-    'Pickups.CannedBeansPickupItem': new VendorItem('Pickups.CannedBeansPickupItem', 'Pickups.CannedBeans_Pickup', 1.1),
-    'Pickups.CoffeePickupItem': new VendorItem('Pickups.CoffeePickupItem', 'Pickups.Coffee_Pickup', 1.1),
-    'Pickups.ChipsPickupItem': new VendorItem('Pickups.ChipsPickupItem', 'Pickups.Chips_Pickup', 1.1),
+    'Pickups.FreshWaterPickupItem': new VendorItem('Pickups.FreshWaterPickupItem', 'Pickups.FreshWater_Pickup', 1.12),
+    'Pickups.VitaminsPickupItem': new VendorItem('Pickups.VitaminsPickupItem', 'Pickups.Vitamins_Pickup', 1.12),
+    'Pickups.DrHollcroftsCureAllPickupItem': new VendorItem('Pickups.DrHollcroftsCureAllPickupItem', 'Pickups.DrHollcroftsCureAll_Pickup', 1.12),
+    'Pickups.PottedMeatPickupItem': new VendorItem('Pickups.PottedMeatPickupItem', 'Pickups.PottedMeat_Pickup', 1.12),
+    'Pickups.AspirinPickupItem': new VendorItem('Pickups.AspirinPickupItem', 'Pickups.Aspirin_Pickup', 1.12),
+    'Pickups.SodaPickupItem': new VendorItem('Pickups.SodaPickupItem', 'Pickups.Soda_Pickup', 1.12),
+    'Pickups.TwinkiePickupItem': new VendorItem('Pickups.TwinkiePickupItem', 'Pickups.Twinkie1_Pickup', 1.12),
+    'Pickups.CannedFruitPickupItem': new VendorItem('Pickups.CannedFruitPickupItem', 'Pickups.CannedFruit_Pickup', 1.12),
+    'Pickups.PowerbarPickupItem': new VendorItem('Pickups.PowerbarPickupItem', 'Pickups.Powerbar1_Pickup', 1.12),
+    'Pickups.SardinesPickupItem': new VendorItem('Pickups.SardinesPickupItem', 'Pickups.Sardines_Pickup', 1.12),
+    'Pickups.CannedBeansPickupItem': new VendorItem('Pickups.CannedBeansPickupItem', 'Pickups.CannedBeans_Pickup', 1.12),
+    'Pickups.CoffeePickupItem': new VendorItem('Pickups.CoffeePickupItem', 'Pickups.Coffee_Pickup', 1.12),
+    'Pickups.ChipsPickupItem': new VendorItem('Pickups.ChipsPickupItem', 'Pickups.Chips_Pickup', 1.12),
   };
 
   function handleVendorItem(line) {
@@ -292,6 +292,91 @@
     return 'Scores=' + scoreValue.toFixed(0)
   }
 
+  class ToEaseGroup {
+    constructor(className) {
+      this.className = className;
+    }
+
+    readEaseValue(line) {
+      return parseFloat(line.split('EaseValue=')[1].split(',')[0].split(closeBracked)[0]);
+    }
+
+    readLowValue(line) {
+      return parseFloat(line.split('Low=')[1].split(',')[0].split(closeBracked)[0].split(closeBracked)[0]);
+    }
+
+    readNormalValue(line) {
+      return parseFloat(line.split('Normal=')[1].split(',')[0].split(closeBracked)[0].split(closeBracked)[0]);
+    }
+
+    readHighValue(line) {
+      return parseFloat(line.split('High=')[1].split(',')[0].split(closeBracked)[0].split(closeBracked)[0]);
+    }
+
+    create(line) {
+      const valueMultiplier = 0.5;
+
+      if (!line.includes('Entries=')) {
+        return line;
+      }
+      
+      return 'Entries=(' +
+        'EaseValue=' + 
+        this.readEaseValue(line) +
+        ', Value=(Low=' + (this.readLowValue(line) * valueMultiplier).toFixed(4) +
+        ',Normal=' + (this.readNormalValue(line) * valueMultiplier).toFixed(4) +
+        ',High=' + (this.readHighValue(line) * valueMultiplier).toFixed(4) +
+        '))';
+    }
+  }
+
+  const toEaseMisc = {
+    'DeathProbabilityTable': new ToEaseGroup('DeathProbabilityTable'),
+    'DefaultProbabilityTable': new ToEaseGroup('DefaultProbabilityTable'),
+  }
+
+  const toEaseHealth = {
+    'HealthToEaseTable': new ToEaseGroup('HealthToEaseTable'),
+  }
+
+  const toEaseBioAmmo = {
+    'BioAmmoProbabilityTable': new ToEaseGroup('BioAmmoProbabilityTable'),
+    'BioAmmoToEaseTable': new ToEaseGroup('BioAmmoToEaseTable'),
+  }
+
+  const toEaseAmmoGroups = {
+    'AmmoToEaseTable': new ToEaseGroup('AmmoToEaseTable'),
+    'WeaponAverageToEaseTable': new ToEaseGroup('WeaponAverageToEaseTable'),
+    'DrillAmmoToEaseTable': new ToEaseGroup('DrillAmmoToEaseTable'),
+    'RivetGunAmmoToEaseTable': new ToEaseGroup('RivetGunAmmoToEaseTable'),
+    'HackToolAmmoToEaseTable': new ToEaseGroup('HackToolAmmoToEaseTable'),
+    'MachineGunAmmoToEaseTable': new ToEaseGroup('MachineGunAmmoToEaseTable'),
+    'ShotgunAmmoToEaseTable': new ToEaseGroup('ShotgunAmmoToEaseTable'),
+    'SpeargunAmmoToEaseTable': new ToEaseGroup('SpeargunAmmoToEaseTable'),
+    'GrenadeLauncherAmmoToEaseTable': new ToEaseGroup('GrenadeLauncherAmmoToEaseTable'),
+  }
+
+  const allToEaseGroups = {
+    ...toEaseMisc,
+    ...toEaseHealth,
+    ...toEaseBioAmmo,
+    ...toEaseAmmoGroups
+  }
+
+  const customToEaseGroups = {
+    
+  }
+
+  function handleToEase(line, group) {
+    const groups = toEaseAmmoGroups;
+
+    if (!(group.get() in groups)) {
+      return line;
+    }
+
+    return groups[group.get()].create(line);
+  }
+
   class FileHandler {
     constructor(file) {
       this.reader = new FileReader();
@@ -301,6 +386,7 @@
       this.handleHackingSpeed = handleHackingSpeed;
       this.handleResistances = handleResistances;
       this.handleCameraScore = handleCameraScore;
+      this.handleToEase = handleToEase;
     }
 
     handle(lines) {
@@ -308,7 +394,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleResistances(lines[line], targetId);
+        lines[line] = this.handleToEase(lines[line], targetId);
       }
 
       const edited = lines.join('\n');

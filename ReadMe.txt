@@ -104,7 +104,7 @@ Changelog:
 -> Hacking: increases the needle speed by 3 units (depending on the original speed the increase is about 10%-20%)
 -> Increases Thuggish Splicers damage by 10%
 -> Brute Splicers take 10% less damage
--> Alpha Series Big Daddy takes 10% less damage
+-> Alpha Series takes 10% less damage
 -> Increased Security Bot damage against the Player by 25%
 -> Reduced Security Bot damage against NPCs by 35%
 -> Increased Minigun Turret damage against the Player by 10%
@@ -200,6 +200,13 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 
 Changelog:
 
+-> Looting a killed Splicer now has a 10% less chamce of dropping Dollars
+-> Looting a killed Brute Splicer now gives a little less Dollars
+-> Looting a killed Alpha Series now gives a little less Dollars
+-> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.65 * 1.18
+-> The cost of all Ammo is now calculated: BASE_COST * 1.65
+-> The cost of all Consumables is now calculated: BASE_COST * 1.65 * 1.12
+-> Reduced the Weapon Ammo To Ease probabilities by 50% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
 -> Player: sets the damage taken multiplier to 1.28
 
 
