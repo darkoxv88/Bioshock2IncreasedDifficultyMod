@@ -210,6 +210,7 @@ Changelog:
 -> Reduced the Weapon Ammo To Ease probabilities by 50% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
 -> Player: Incinerate Plasmid damage reduced by 10%
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 15%
+-> Player: Enraged Plasmid duration reduced from 8 seconds to 7 seconds
 -> Player: all frozen stun duration inflicted to enemies is reduced by 15%
 -> Player: default (none Drill) melee swings damage reduced by 10%
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.1 to 2.25
