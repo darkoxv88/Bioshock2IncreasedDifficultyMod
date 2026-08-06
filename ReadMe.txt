@@ -214,6 +214,8 @@ Changelog:
 -> Player: all frozen stun duration inflicted to enemies is reduced by 15%
 -> Player: default (none Drill) melee swings damage reduced by 10%
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.1 to 2.25
+-> Player: Rivet Gun Rivet Ammo headshot damage multiplier increased from 3.75 to 3.8
+-> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 3.125 to 3.2
 -> Player: All Weapons damage reduced by 10%
 -> Player: sets the damage taken multiplier to 1.28
 
@@ -240,7 +242,7 @@ Changelog Version1:
 -> Reduced some Ammo found in Safes by 20%
 -> Reduced Ammo found in Shotgun weapon to 2
 -> Reduced Ammo found in Spear Gun weapon to 5
--> Reduced Ammo found in all Machinegun Ammo pickups to 16
+-> Reduced Ammo found in most Machinegun Ammo pickups to 16
 -> Reduced the Ammo found in some pickups
 -> Bouncer Big Daddy in the third area (Ryan Amusements) now gives less Dollars
 -> Some static Corpses give less Dollars
