@@ -231,7 +231,7 @@ Info: -
 
 Changelog Version1:
 
--> Health Station const increased to 20 Dollars
+-> Health Station const increased to 23 Dollars
 -> Hacked Health Station cost multiplier set to 0.8
 -> Eight area (Outer Persephone) Power to the People (Weapon upgrade station) can be used twice.
 -> Created new custom groups (the name of this group will always start with "Custom_") in the LootTables_perobjectconfig.ini file for edits of Dollar pickups
@@ -240,6 +240,7 @@ Changelog Version1:
 -> Reduced some Ammo found in Safes by 20%
 -> Reduced Ammo found in Shotgun weapon to 2
 -> Reduced Ammo found in Spear Gun weapon to 5
+-> Reduced Ammo found in all Machinegun Ammo pickups to 16
 -> Reduced the Ammo found in some pickups
 -> Bouncer Big Daddy in the third area (Ryan Amusements) now gives less Dollars
 -> Some static Corpses give less Dollars
