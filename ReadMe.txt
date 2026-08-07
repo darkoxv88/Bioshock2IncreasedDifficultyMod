@@ -221,6 +221,18 @@ Changelog:
 
 
 
+Insane6:
+
+Info: The base for this mod is Insane6
+
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+
+Changelog:
+
+->
+
+
+
 *************************************************************************************************************************************************************
 The folowing mod is considered Map edits and must be loaded using TFC Installer
 *************************************************************************************************************************************************************
@@ -240,6 +252,7 @@ Changelog Version1:
 -> Created new custom groups (the name of this group will always start with "Custom_") in the LootTables_perobjectconfig.ini file for edits of Drill Ammo pickups
 -> Created new custom groups (the name of this group will always start with "Custom_") in the LootTables_perobjectconfig.ini file for edits of Dollars found in Safes
 -> Reduced some Ammo found in Safes by 20%
+-> Further reduced some Ammo found in Safes by 10%-40%
 -> Reduced Ammo found in Shotgun weapon to 2
 -> Reduced Ammo found in Spear Gun weapon to 5
 -> Reduced Ammo found in most Machinegun Ammo pickups to 16
