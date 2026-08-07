@@ -204,9 +204,7 @@
   }
 
   const customResistances = {
-    ...physicalResistances,
-    ...elementalResistances,
-    ...fallingResistances,
+    ...stunResistances,
   }
 
   class ResistanceGroup {
@@ -232,7 +230,7 @@
 
     create(line) {
       const toModify = customResistances;
-      const resistanceMultiplier = 0.89;
+      const resistanceMultiplier = 0.95;
       const applyChanceMultiplier = 1;
       
       const resistanceType = this.readResistanceType(line);
@@ -400,7 +398,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleHackingSpeed(lines[line], targetId);
+        lines[line] = this.handleResistances(lines[line], targetId);
       }
 
       const edited = lines.join('\n');

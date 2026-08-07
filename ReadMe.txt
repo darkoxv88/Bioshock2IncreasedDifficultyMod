@@ -236,6 +236,8 @@ Changelog:
 -> The cost of all Consumables is now calculated: BASE_COST * 1.7 * 1.12
 -> All enemies take 11% less damage
 -> Player: reduced Telekinesis damage by 5%
+-> Player: all shocked/electric stun duration inflicted to enemies is reduced by 5%
+-> Player: all frozen stun duration inflicted to enemies is reduced by 5%
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.25 to 2.35
 -> Player: Rivet Gun Rivet Ammo headshot damage multiplier increased from 3.8 to 4.05
 -> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 3.2 to 3.35
