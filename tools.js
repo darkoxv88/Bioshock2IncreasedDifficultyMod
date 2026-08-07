@@ -57,7 +57,7 @@
     }
 
     create(line) {
-      const globalCostMultiplier = 1.65;
+      const globalCostMultiplier = 1.7;
       const hacked = line.includes('DisplayWhenHacked=True');
       const cost = (((hacked ? 0.8 : 1) * globalCostMultiplier) * this.costMultiplier).toFixed(3);
       const displayWhenUnHacked = hacked ? 'False' : 'True';
@@ -168,7 +168,6 @@
     'STIMULUS_AICold': new ResistanceType('STIMULUS_AICold'),
     'STIMULUS_AIElectric': new ResistanceType('STIMULUS_AIElectric'),
     'STIMULUS_Burning': new ResistanceType('STIMULUS_Burning'),
-    'STIMULUS_BurningTime': new ResistanceType('STIMULUS_BurningTime'),
     'STIMULUS_Diseased': new ResistanceType('STIMULUS_Diseased'),
     'STIMULUS_ElectricInWater': new ResistanceType('STIMULUS_ElectricInWater'),
   }
@@ -177,6 +176,10 @@
     'STIMULUS_Shocked': new ResistanceType('STIMULUS_Shocked'),
     'STIMULUS_Frozen': new ResistanceType('STIMULUS_Frozen'),
     'STIMULUS_ShockedInWater': new ResistanceType('STIMULUS_ShockedInWater'),
+  }
+
+  const miscResistances = {
+    'STIMULUS_BurningTime': new ResistanceType('STIMULUS_BurningTime'),
   }
 
   const enragedResistances = {
@@ -195,12 +198,15 @@
     ...physicalResistances,
     ...elementalResistances,
     ...stunResistances,
+    ...miscResistances,
     ...enragedResistances,
     ...securityCommandResistances,
   }
 
   const customResistances = {
-
+    ...physicalResistances,
+    ...elementalResistances,
+    ...fallingResistances,
   }
 
   class ResistanceGroup {
@@ -226,7 +232,7 @@
 
     create(line) {
       const toModify = customResistances;
-      const resistanceMultiplier = 0.85;
+      const resistanceMultiplier = 0.89;
       const applyChanceMultiplier = 1;
       
       const resistanceType = this.readResistanceType(line);
@@ -394,7 +400,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleResistances(lines[line], targetId);
+        lines[line] = this.handleVendorItem(lines[line], targetId);
       }
 
       const edited = lines.join('\n');

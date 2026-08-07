@@ -209,8 +209,8 @@ Changelog:
 -> Reduced the Eve Hypo and First Aid Kit To Ease probabilities by 25% (there is less of a chance the enemies will drop these items)
 -> Reduced the Weapon Ammo To Ease probabilities by 50% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
 -> Player: Incinerate Plasmid damage reduced by 10%
--> Player: all shocked/electric stun duration inflicted to enemies is reduced by 15%
 -> Player: Enraged Plasmid duration reduced from 8 seconds to 7 seconds
+-> Player: all shocked/electric stun duration inflicted to enemies is reduced by 15%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 15%
 -> Player: default (none Drill) melee swings damage reduced by 10%
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.1 to 2.25
@@ -229,6 +229,11 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 
 Changelog:
 
+-> Looting gives a bit less resources
+-> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.7 * 1.18
+-> The cost of all Ammo is now calculated: BASE_COST * 1.7
+-> The cost of all Consumables is now calculated: BASE_COST * 1.7 * 1.12
+-> All enemies take 11% less damage
 -> Player: sets the damage taken multiplier to 1.32
 
 
