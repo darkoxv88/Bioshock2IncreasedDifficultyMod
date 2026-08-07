@@ -229,7 +229,7 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 
 Changelog:
 
-->
+-> Player: sets the damage taken multiplier to 1.32
 
 
 
