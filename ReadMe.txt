@@ -235,6 +235,7 @@ Changelog:
 -> The cost of all Ammo is now calculated: BASE_COST * 1.7
 -> The cost of all Consumables is now calculated: BASE_COST * 1.7 * 1.12
 -> All enemies take 11% less damage
+-> Big Sisters further take 4% less damage
 -> Player: reduced Telekinesis damage by 5%
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 5%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 5%
