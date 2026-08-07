@@ -234,6 +234,7 @@ Changelog:
 -> The cost of all Ammo is now calculated: BASE_COST * 1.7
 -> The cost of all Consumables is now calculated: BASE_COST * 1.7 * 1.12
 -> All enemies take 11% less damage
+-> Player: reduced Telekinesis damage by 5%
 -> Player: sets the damage taken multiplier to 1.32
 
 
