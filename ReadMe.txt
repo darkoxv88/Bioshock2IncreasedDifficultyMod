@@ -230,6 +230,7 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 Changelog:
 
 -> Looting gives a bit less resources
+-> Hacking: increases the needle speed by 2 units (depending on the original speed the increase is about 6.5%-11.2%)
 -> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.7 * 1.18
 -> The cost of all Ammo is now calculated: BASE_COST * 1.7
 -> The cost of all Consumables is now calculated: BASE_COST * 1.7 * 1.12
