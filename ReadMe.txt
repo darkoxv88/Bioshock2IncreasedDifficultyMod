@@ -260,7 +260,7 @@ Info: -
 
 Changelog Version1:
 
--> Health Station const increased to 23 Dollars
+-> Health Station cost increased to 23 Dollars
 -> Hacked Health Station cost multiplier set to 0.8
 -> Eight area (Outer Persephone) Power to the People (Weapon upgrade station) can be used twice.
 -> Created new custom groups (the name of this group will always start with "Custom_") in the LootTables_perobjectconfig.ini file for edits of Dollar pickups
