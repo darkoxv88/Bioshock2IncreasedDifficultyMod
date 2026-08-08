@@ -278,3 +278,7 @@ Changelog Version1:
 -> Player: Rivet Gun Rivet Ammo maximum carry capacity increased from 60 to 72
 -> Player: Rivet Gun Trap Rivet Ammo maximum carry capacity increased from 24 to 36
 -> Player: Rivet Gun Heavy Rivet Ammo maximum carry capacity increased from 24 to 36
+-> Updates the maximum ADAM given to the player for Saving the Little Sisters to be the same as Harvesting the Little Sisters:
+  from: (4*160) + (8*200) + 80 + 120 + 250 = 2690
+  to: (4*160) + (8*200) + 160 + 200 + 280 = 2880
+  
