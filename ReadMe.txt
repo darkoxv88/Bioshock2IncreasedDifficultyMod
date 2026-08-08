@@ -236,6 +236,7 @@ Changelog:
 -> The cost of all Consumables is now calculated: BASE_COST * 1.7 * 1.12
 -> All enemies take 11% less damage
 -> Big Sisters further take 4% less damage
+-> Reduced Security Bot damage against NPCs by around 4%
 -> Player: reduced Telekinesis damage by 5%
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 5%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 5%
