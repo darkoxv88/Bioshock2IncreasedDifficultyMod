@@ -221,7 +221,7 @@ Changelog:
 
 
 
-Insane6:
+Insane7:
 
 Info: The base for this mod is Insane6
 
