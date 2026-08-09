@@ -241,8 +241,8 @@ Changelog:
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 5%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 5%
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.25 to 2.35
--> Player: Rivet Gun Rivet Ammo headshot damage multiplier increased from 3.8 to 4.05
--> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 3.2 to 3.35
+-> Player: Rivet Gun Rivet Ammo headshot damage multiplier increased from 3.8 to 3.9
+-> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 3.2 to 3.25
 -> Player: All Weapons damage reduced by 5%
 -> Player: sets the damage taken multiplier to 1.32
 
