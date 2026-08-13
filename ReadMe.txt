@@ -258,6 +258,9 @@ Changelog:
 
 -> All enemies take 3% less damage
 -> All enemies further take 4% less Explosive Type damage
+-> Player: default (none Drill) melee swings damage reduced by 8%
+-> Player: Shotgun Solid Slug Ammo damage reduced by 5%
+-> Player: Spear Gun Trap Spear damage decreased by 5%
 -> Player: Rivet Gun Rivet Ammo headshot damage multiplier decreased from 3.9 to 3.6
 -> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 3.25 to 3
 
