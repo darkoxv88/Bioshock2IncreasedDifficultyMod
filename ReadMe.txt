@@ -256,13 +256,18 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 
 Changelog:
 
+-> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.75 * 1.18
+-> The cost of all Ammo is now calculated: BASE_COST * 1.75
+-> The cost of all Consumables is now calculated: BASE_COST * 1.75 * 1.12
 -> All enemies take 3% less damage
 -> All enemies further take 4% less Explosive Type damage
+-> Alpha Series further take 15% less damage
 -> Player: default (none Drill) melee swings damage reduced by 8%
--> Player: Shotgun Solid Slug Ammo damage reduced by 5%
 -> Player: Spear Gun Trap Spear damage decreased by 5%
+-> Player: Shotgun Solid Slug Ammo damage reduced by 5%
 -> Player: Rivet Gun Rivet Ammo headshot damage multiplier decreased from 3.9 to 3.6
 -> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 3.25 to 3
+-> Player: sets the damage taken multiplier to 1.35
 
 
 

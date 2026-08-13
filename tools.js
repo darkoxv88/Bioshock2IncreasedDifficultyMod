@@ -57,7 +57,7 @@
     }
 
     create(line) {
-      const globalCostMultiplier = 1.7;
+      const globalCostMultiplier = 1.75;
       const hacked = line.includes('DisplayWhenHacked=True');
       const cost = (((hacked ? 0.8 : 1) * globalCostMultiplier) * this.costMultiplier).toFixed(3);
       const displayWhenUnHacked = hacked ? 'False' : 'True';
@@ -204,7 +204,8 @@
   }
 
   const customResistances = {
-    'STIMULUS_AIExplosive': new ResistanceType('STIMULUS_AIExplosive'),
+    ...physicalResistances,
+    ...elementalResistances,
   }
 
   class ResistanceGroup {
@@ -230,7 +231,7 @@
 
     create(line) {
       const toModify = customResistances;
-      const resistanceMultiplier = 0.96;
+      const resistanceMultiplier = 0.85;
       const applyChanceMultiplier = 1;
       
       const resistanceType = this.readResistanceType(line);
@@ -276,8 +277,12 @@
     'PreacherResistanceSet': new ResistanceGroup('PreacherResistanceSet'),
   }
 
+  const customResistanceGroups = {
+    ...allResistanceGroups
+  }
+
   function handleResistances(line, group) {
-    if (!(group.get() in allResistanceGroups)) {
+    if (!(group.get() in customResistanceGroups)) {
       return line;
     }
 
@@ -398,7 +403,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleResistances(lines[line], targetId);
+        lines[line] = this.handleVendorItem(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
