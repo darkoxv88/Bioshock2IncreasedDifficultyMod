@@ -234,6 +234,8 @@ Changelog:
 -> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.7 * 1.18
 -> The cost of all Ammo is now calculated: BASE_COST * 1.7
 -> The cost of all Consumables is now calculated: BASE_COST * 1.7 * 1.12
+-> Reduced the Eve Hypo and First Aid Kit To Ease probabilities by 15% (there is less of a chance the enemies will drop these items)
+-> Reduced the Weapon Ammo To Ease probabilities by 10% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
 -> All enemies take 11% less damage
 -> Big Sisters further take 4% less damage
 -> Reduced Security Bot damage against NPCs by around 4%

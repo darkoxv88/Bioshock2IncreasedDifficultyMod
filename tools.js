@@ -373,7 +373,7 @@
   }
 
   const customToEaseGroups = {
-
+    ...toEaseMisc,
   }
 
   function handleToEase(line, group) {
@@ -403,7 +403,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleVendorItem(lines[line], targetId);
+        lines[line] = this.handleToEase(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
