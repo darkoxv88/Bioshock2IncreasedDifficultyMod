@@ -256,6 +256,8 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 
 Changelog:
 
+-> Looting gives a bit less resources
+-> Looting a killed Splicer now has a 15% less chamce of dropping Dollars
 -> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.75 * 1.18
 -> The cost of all Ammo is now calculated: BASE_COST * 1.75
 -> The cost of all Consumables is now calculated: BASE_COST * 1.75 * 1.12
