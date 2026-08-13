@@ -204,7 +204,7 @@
   }
 
   const customResistances = {
-    ...stunResistances,
+    ...allResistanceTypes,
   }
 
   class ResistanceGroup {
@@ -244,9 +244,9 @@
       return 'Resistance=(Type='
         + resistanceType
         + ',AmountModification='
-        + (this.readAmountModification(line) * resistanceMultiplier * resistanceTypeRef.resistanceMultiplier).toFixed(4)
+        + (this.readAmountModification(line) * resistanceMultiplier * resistanceTypeRef.resistanceMultiplier).toFixed(3)
         + ',ChanceModification='
-        + (this.readChanceMultiplier(line) * applyChanceMultiplier * resistanceTypeRef.applyChanceMultiplier).toFixed(4)
+        + (this.readChanceMultiplier(line) * applyChanceMultiplier * resistanceTypeRef.applyChanceMultiplier).toFixed(3)
         + closeBracked;
     }
   }

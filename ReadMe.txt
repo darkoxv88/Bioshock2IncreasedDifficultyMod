@@ -221,7 +221,7 @@ Changelog:
 
 
 
-Insane6:
+Insane7:
 
 Info: The base for this mod is Insane6
 
@@ -241,10 +241,22 @@ Changelog:
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 5%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 5%
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.25 to 2.35
--> Player: Rivet Gun Rivet Ammo headshot damage multiplier increased from 3.8 to 4.05
--> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 3.2 to 3.35
+-> Player: Rivet Gun Rivet Ammo headshot damage multiplier increased from 3.8 to 3.9
+-> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 3.2 to 3.25
 -> Player: All Weapons damage reduced by 5%
 -> Player: sets the damage taken multiplier to 1.32
+
+
+
+Insane8:
+
+Info: The base for this mod is Insane7
+
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+
+Changelog:
+
+-> 
 
 
 
@@ -260,7 +272,7 @@ Info: -
 
 Changelog Version1:
 
--> Health Station const increased to 23 Dollars
+-> Health Station cost increased to 23 Dollars
 -> Hacked Health Station cost multiplier set to 0.8
 -> Eight area (Outer Persephone) Power to the People (Weapon upgrade station) can be used twice.
 -> Created new custom groups (the name of this group will always start with "Custom_") in the LootTables_perobjectconfig.ini file for edits of Dollar pickups
@@ -278,3 +290,7 @@ Changelog Version1:
 -> Player: Rivet Gun Rivet Ammo maximum carry capacity increased from 60 to 72
 -> Player: Rivet Gun Trap Rivet Ammo maximum carry capacity increased from 24 to 36
 -> Player: Rivet Gun Heavy Rivet Ammo maximum carry capacity increased from 24 to 36
+-> Updates the maximum ADAM given to the player for Saving the Little Sisters to be the same as Harvesting the Little Sisters:
+  from: (4*160) + (8*200) + 80 + 120 + 250 = 2690
+  to: (4*160) + (8*200) + 160 + 200 + 280 = 2880
+  
