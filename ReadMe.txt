@@ -248,6 +248,18 @@ Changelog:
 
 
 
+Insane8:
+
+Info: The base for this mod is Insane7
+
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+
+Changelog:
+
+-> 
+
+
+
 *************************************************************************************************************************************************************
 The folowing mod is considered Map edits and must be loaded using TFC Installer
 *************************************************************************************************************************************************************
