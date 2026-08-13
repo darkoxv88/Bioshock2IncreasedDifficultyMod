@@ -204,8 +204,8 @@
   }
 
   const customResistances = {
-    ...physicalResistances,
-    ...elementalResistances,
+    'STIMULUS_Shocked': new ResistanceType('STIMULUS_Shocked'),
+    'STIMULUS_ShockedInWater': new ResistanceType('STIMULUS_ShockedInWater'),
   }
 
   class ResistanceGroup {
@@ -231,7 +231,7 @@
 
     create(line) {
       const toModify = customResistances;
-      const resistanceMultiplier = 0.85;
+      const resistanceMultiplier = 0.97;
       const applyChanceMultiplier = 1;
       
       const resistanceType = this.readResistanceType(line);
@@ -403,7 +403,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleToEase(lines[line], targetId);
+        lines[line] = this.handleResistances(lines[line], targetId);
       }
 
       const edited = lines.join('\n');

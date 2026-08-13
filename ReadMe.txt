@@ -266,6 +266,8 @@ Changelog:
 -> All enemies take 3% less damage
 -> All enemies further take 4% less Explosive Type damage
 -> Alpha Series further take 15% less damage
+-> Player: all shocked/electric stun duration inflicted to enemies is reduced by 3%
+-> Player: all frozen stun duration inflicted to enemies is reduced by 6%
 -> Player: default (none Drill) melee swings damage reduced by 8%
 -> Player: Spear Gun Trap Spear damage decreased by 5%
 -> Player: Shotgun Solid Slug Ammo damage reduced by 5%
