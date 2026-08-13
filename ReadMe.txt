@@ -256,7 +256,10 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 
 Changelog:
 
--> 
+-> All enemies take 3% less damage
+-> All enemies further take 4% less Explosive Type damage
+-> Player: Rivet Gun Rivet Ammo headshot damage multiplier decreased from 3.9 to 3.6
+-> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 3.25 to 3
 
 
 

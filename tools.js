@@ -204,7 +204,7 @@
   }
 
   const customResistances = {
-    ...allResistanceTypes,
+    'STIMULUS_AIExplosive': new ResistanceType('STIMULUS_AIExplosive'),
   }
 
   class ResistanceGroup {
@@ -230,7 +230,7 @@
 
     create(line) {
       const toModify = customResistances;
-      const resistanceMultiplier = 0.95;
+      const resistanceMultiplier = 0.96;
       const applyChanceMultiplier = 1;
       
       const resistanceType = this.readResistanceType(line);
@@ -244,9 +244,9 @@
       return 'Resistance=(Type='
         + resistanceType
         + ',AmountModification='
-        + (this.readAmountModification(line) * resistanceMultiplier * resistanceTypeRef.resistanceMultiplier).toFixed(3)
+        + (this.readAmountModification(line) * resistanceMultiplier * resistanceTypeRef.resistanceMultiplier).toFixed(4)
         + ',ChanceModification='
-        + (this.readChanceMultiplier(line) * applyChanceMultiplier * resistanceTypeRef.applyChanceMultiplier).toFixed(3)
+        + (this.readChanceMultiplier(line) * applyChanceMultiplier * resistanceTypeRef.applyChanceMultiplier).toFixed(4)
         + closeBracked;
     }
   }
