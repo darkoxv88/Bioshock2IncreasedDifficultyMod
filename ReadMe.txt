@@ -290,6 +290,7 @@ Changelog:
 -> Reduced the Eve Hypo and First Aid Kit To Ease probabilities by 10% (there is less of a chance the enemies will drop these items)
 -> Reduced the Weapon Ammo To Ease probabilities by 10% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
 -> Alpha Series take 5% less damage
+-> Player: Incinerate Plasmid damage reduced by 5%
 -> Player: default (none Drill) melee swings damage reduced by 12%
 -> Player: All Weapons damage reduced by 12%
 -> Player: Rivet Gun Rivet Ammo headshot damage multiplier decreased from 3.6 to 3.5
