@@ -204,8 +204,7 @@
   }
 
   const customResistances = {
-    'STIMULUS_Shocked': new ResistanceType('STIMULUS_Shocked'),
-    'STIMULUS_ShockedInWater': new ResistanceType('STIMULUS_ShockedInWater'),
+    ...allResistanceTypes,
   }
 
   class ResistanceGroup {
@@ -231,7 +230,7 @@
 
     create(line) {
       const toModify = customResistances;
-      const resistanceMultiplier = 0.97;
+      const resistanceMultiplier = 0.95;
       const applyChanceMultiplier = 1;
       
       const resistanceType = this.readResistanceType(line);
@@ -278,7 +277,7 @@
   }
 
   const customResistanceGroups = {
-    ...allResistanceGroups
+    ...allResistanceGroups,
   }
 
   function handleResistances(line, group) {
@@ -323,7 +322,7 @@
     }
 
     create(line) {
-      const valueMultiplier = 0.75;
+      const valueMultiplier = 0.9;
 
       if (!line.includes('Entries=')) {
         return line;
@@ -373,7 +372,7 @@
   }
 
   const customToEaseGroups = {
-    ...toEaseMisc,
+    ...allToEaseGroups,
   }
 
   function handleToEase(line, group) {

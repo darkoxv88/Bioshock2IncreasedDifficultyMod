@@ -285,6 +285,11 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 
 Changelog:
 
+-> Looting gives a bit less resources
+-> Looting a killed Splicer now has a 10% less chance of dropping Dollars
+-> Reduced the Eve Hypo and First Aid Kit To Ease probabilities by 10% (there is less of a chance the enemies will drop these items)
+-> Reduced the Weapon Ammo To Ease probabilities by 10% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
+-> Alpha Series take 5% less damage
 -> Player: default (none Drill) melee swings damage reduced by 12%
 -> Player: All Weapons damage reduced by 12%
 -> Player: Rivet Gun Rivet Ammo headshot damage multiplier decreased from 3.6 to 3.5
