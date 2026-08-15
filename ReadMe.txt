@@ -285,7 +285,10 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 
 Changelog:
 
--> 
+-> Player: default (none Drill) melee swings damage reduced by 12%
+-> Player: All Weapons damage reduced by 12%
+-> Player: Rivet Gun Rivet Ammo headshot damage multiplier decreased from 3.6 to 3.5
+-> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 3 to 2.9
 
 
 
