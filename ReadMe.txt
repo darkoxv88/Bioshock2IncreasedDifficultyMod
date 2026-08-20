@@ -308,6 +308,8 @@ Changelog:
 
 -> Looting gives a bit less resources
 -> Looting a killed Splicer now has a 10% less chance of dropping Dollars
+-> All enemies take 3% less damage
+-> All enemies further take 15% less falling damage
 
 
 
