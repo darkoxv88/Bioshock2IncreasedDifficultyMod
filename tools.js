@@ -463,13 +463,26 @@
   }
 
   const telekinesisStimulusGroup = {
-    '': new Stimulus([]),
+    'TKFragGrenadeStimuliSet': new Stimulus(['STIMULUS_AIArmorPiercing', 'STIMULUS_AIExplosive', ]),
+    'TKCeilingCrawlerRangedWeaponStimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing']),
+    'TKRPGTurretStimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIHeat']),
+    'ThrownObjectStimuliSet': new Stimulus(['STIMULUS_AIBludgeoning']),
+  }
+
+  const springBoardTrapStimulusGroup = {
+
+  }
+
+  const securityBotStimulusGroup = {
+
   }
 
   const allStimulusGroup = {
     ...weaponsStimulusGroup,
     ...incinerationStimulusGroup,
     ...telekinesisStimulusGroup,
+    ...springBoardTrapStimulusGroup,
+    ...securityBotStimulusGroup,
   }
 
   const customStimulusGroup = {
