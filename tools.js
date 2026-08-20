@@ -423,7 +423,7 @@
     'AlternateKnockbackAttackStimuliSet': new Stimulus(['STIMULUS_AIBludgeoning']),
     'DrillSpin_StimuliSet': new Stimulus(['STIMULUS_AIDrill']),
     'DrillSwing_StimuliSet': new Stimulus(['STIMULUS_AIDrill', 'STIMULUS_AIBludgeoning']),
-    'PlayerDashImpactStimuliSet': new Stimulus(['STIMULUS_AIDaddyDash', 'STIMULUS_AIBludgeoning']),
+    'PlayerDashImpactStimuliSet': new Stimulus(['STIMULUS_AIDaddyDash', 'STIMULUS_AIAntiPersonnel']),
     'StandardRivet_StimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing']),
     'TrapRivet_DirectHit_StimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing']),
     'MagnumRivet_StimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIAntiPersonnel', 'STIMULUS_AIArmorPiercing']),
@@ -486,7 +486,7 @@
   }
 
   const customStimulusGroup = {
-    
+    ...weaponsStimulusGroup,
   }
 
   function handleDamageStimulus(line, group) {
@@ -496,7 +496,7 @@
       return line;
     }
 
-    return groups[group.get()].create(line, 1);
+    return groups[group.get()].create(line, 0.97);
   }
 
   class FileHandler {
@@ -517,7 +517,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleResistances(lines[line], targetId);
+        lines[line] = this.handleDamageStimulus(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
