@@ -56,8 +56,7 @@
       return ', SupplySize=' + line.split('SupplySize=')[1].split(',')[0].split(closeBracked)[0];
     }
 
-    create(line) {
-      const globalCostMultiplier = 1.75;
+    create(line, globalCostMultiplier = 1) {
       const hacked = line.includes('DisplayWhenHacked=True');
       const cost = (((hacked ? 0.8 : 1) * globalCostMultiplier) * this.costMultiplier).toFixed(3);
       const displayWhenUnHacked = hacked ? 'False' : 'True';
@@ -121,7 +120,7 @@
         continue;
       }
 
-      return vendorItems[item].create(line);
+      return vendorItems[item].create(line, 1.75);
     }
 
     return line;
@@ -228,11 +227,8 @@
       return parseFloat(line.split('ChanceModification=')[1].split(',')[0].split(closeBracked)[0]);
     }
 
-    create(line) {
+    create(line, resistanceMultiplier = 1, applyChanceMultiplier = 1) {
       const toModify = customResistances;
-      const resistanceMultiplier = 0.95;
-      const applyChanceMultiplier = 1;
-      
       const resistanceType = this.readResistanceType(line);
 
       if (!(resistanceType in toModify)) {
@@ -285,7 +281,7 @@
       return line;
     }
 
-    return allResistanceGroups[group.get()].create(line);
+    return allResistanceGroups[group.get()].create(line, 1, 1);
   }
 
   function handleCameraScore(line) {
@@ -321,9 +317,7 @@
       return parseFloat(line.split('High=')[1].split(',')[0].split(closeBracked)[0].split(closeBracked)[0]);
     }
 
-    create(line) {
-      const valueMultiplier = 0.9;
-
+    create(line, valueMultiplier = 1) {
       if (!line.includes('Entries=')) {
         return line;
       }
@@ -382,7 +376,114 @@
       return line;
     }
 
-    return groups[group.get()].create(line);
+    return groups[group.get()].create(line, 1);
+  }
+
+  class Stimulus {
+    constructor(targets) {
+      this.targets = Array.isArray(targets) ? targets : [];
+    }
+
+    readType(line) {
+      return line.split('Type=')[1].split(',')[0].split(closeBracked)[0];
+    }
+
+    readAmount(line) {
+      return line.split('Amount=')[1].split(',')[0].split(closeBracked)[0];
+    }
+
+    readChance(line) {
+      return parseFloat(line.split('Chance=')[1].split(',')[0].split(closeBracked)[0]);
+    }
+
+    create(line, multiplier = 1) {
+      if (!line.includes('Stimulus=')) {
+        return line;
+      }
+
+      const type = this.readType(line);
+
+      if (!this.targets.includes(type)) {
+        return line;
+      }
+
+      const amount = this.readAmount(line);
+      const chance = this.readChance(line);
+
+      return `Stimulus=(`
+        + `Type=${type},` 
+        + `Amount=` + parseFloat(amount * multiplier).toFixed(2) + ','
+        + `Chance=` + chance.toFixed(2)
+        + ')';
+    }
+  }
+
+  const weaponsStimulusGroup = {
+    'AlternateMeleeAttackStimuliSet': new Stimulus(['STIMULUS_AIBludgeoning']),
+    'AlternateKnockbackAttackStimuliSet': new Stimulus(['STIMULUS_AIBludgeoning']),
+    'DrillSpin_StimuliSet': new Stimulus(['STIMULUS_AIDrill']),
+    'DrillSwing_StimuliSet': new Stimulus(['STIMULUS_AIDrill', 'STIMULUS_AIBludgeoning']),
+    'PlayerDashImpactStimuliSet': new Stimulus(['STIMULUS_AIDaddyDash', 'STIMULUS_AIBludgeoning']),
+    'StandardRivet_StimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing']),
+    'TrapRivet_DirectHit_StimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing']),
+    'MagnumRivet_StimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIAntiPersonnel', 'STIMULUS_AIArmorPiercing']),
+    'TrapRivet_TrapSprung_StimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIAntiPersonnel', 'STIMULUS_AIArmorPiercing']),
+    'TrapRivet_TrapSprungPlaced_StimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing']),
+    'StandardSpear_StimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIAntiPersonnel', 'STIMULUS_AIArmorPiercing']),
+    'RocketSpear_StimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing']),
+    'TrapSpear_StimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIAntiPersonnel']),
+    'RocketSpearExplosion_StimuliSet': new Stimulus(['STIMULUS_AIExplosive', 'STIMULUS_AIHeat']),
+    'TrapSpearWire_StimuliSet': new Stimulus(['STIMULUS_AIElectric', 'STIMULUS_ElectricInWater']),
+    'MachineGunStandardBulletStimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing']),
+    'MachineGunAntipersonnelBulletStimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIAntiPersonnel']),
+    'MachineGunArmorPiercingBulletStimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIArmorPiercing']),
+    'Buck00StimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing']),
+    'SolidSlugStimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIAntiPersonnel', 'STIMULUS_AIArmorPiercing']),
+    'PhosphorusExplosiveStimuliSet': new Stimulus(['STIMULUS_AIExplosive', 'STIMULUS_Burning', 'STIMULUS_AIHeat']),
+    'TeslaUpgradeStimuliSet': new Stimulus(['STIMULUS_ElectricInWater']),
+    'TeslaUpgradeChildStimuliSet': new Stimulus(['STIMULUS_ElectricInWater']),
+    'IonicBuckStimuliSet': new Stimulus(['STIMULUS_ElectricInWater', 'STIMULUS_AIElectric']),
+    'HighExplosiveBuckStimuliSet': new Stimulus(['STIMULUS_AIExplosive', 'STIMULUS_AIHeat', 'STIMULUS_Burning']),
+    'FragGrenadeStimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIExplosive']),
+    'RPGStimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIExplosive']),
+    'StickyProxStimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIExplosive']),
+    'FragGrenade_Cluster_StimuliSet': new Stimulus(['STIMULUS_AIExplosive']),
+    'RPGStimuli_Cluster_Set': new Stimulus(['STIMULUS_AIExplosive']),
+    'StickyProx_Cluster_StimuliSet': new Stimulus(['STIMULUS_AIExplosive']),
+    'AutoTurretStimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing']),
+  }
+
+  const incinerationStimulusGroup = {
+    'IncinerationStimuliSet': new Stimulus(['STIMULUS_Burning', 'STIMULUS_Heat', 'STIMULUS_AIHeat']),
+    'IncinerationAdvancedStimuliSet': new Stimulus(['STIMULUS_Burning', 'STIMULUS_Heat', 'STIMULUS_AIHeat']),
+    'IncinerationTwoStimuliSet': new Stimulus(['STIMULUS_Burning', 'STIMULUS_Heat', 'STIMULUS_AIHeat']),
+    'IncinerationThreeStimuliSet': new Stimulus(['STIMULUS_Burning', 'STIMULUS_Heat', 'STIMULUS_AIHeat']),
+    'IncinerationExplosiveStimuliSet': new Stimulus(['STIMULUS_Burning', 'STIMULUS_Heat', 'STIMULUS_AIHeat']),
+    'IncinerationStream_StimuliSet': new Stimulus(['STIMULUS_Burning', 'STIMULUS_Heat', 'STIMULUS_AIHeat']),
+  }
+
+  const telekinesisStimulusGroup = {
+    '': new Stimulus([]),
+  }
+
+  const allStimulusGroup = {
+    ...weaponsStimulusGroup,
+    ...incinerationStimulusGroup,
+    ...telekinesisStimulusGroup,
+  }
+
+  const customStimulusGroup = {
+    
+  }
+
+  function handleDamageStimulus(line, group) {
+    const groups = customStimulusGroup;
+
+    if (!(group.get() in customStimulusGroup)) {
+      return line;
+    }
+
+    return groups[group.get()].create(line, 1);
   }
 
   class FileHandler {
@@ -395,6 +496,7 @@
       this.handleResistances = handleResistances;
       this.handleCameraScore = handleCameraScore;
       this.handleToEase = handleToEase;
+      this.handleDamageStimulus = handleDamageStimulus;
     }
 
     handle(lines) {
@@ -402,7 +504,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleResistances(lines[line], targetId);
+        lines[line] = this.handleDamageStimulus(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
