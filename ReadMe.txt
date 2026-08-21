@@ -310,6 +310,8 @@ Changelog:
 -> Looting a killed Splicer now has a 10% less chance of dropping Dollars
 -> All enemies take 3% less damage
 -> All enemies further take 15% less falling damage
+-> Alpha Series take 5% less damage
+-> Reduced Security Bot damage against NPCs by 3%
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 3%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 3%
 -> Player: reduced Telekinesis damage by 5%

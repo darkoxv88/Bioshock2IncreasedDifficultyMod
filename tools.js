@@ -203,7 +203,8 @@
   }
 
   const customResistances = {
-    ...stunResistances,
+    ...physicalResistances,
+    ...elementalResistances,
   }
 
   class ResistanceGroup {
@@ -273,7 +274,7 @@
   }
 
   const customResistanceGroups = {
-    ...allResistanceGroups,
+    ...allResistanceGroups
   }
 
   function handleResistances(line, group) {
@@ -281,7 +282,7 @@
       return line;
     }
 
-    return allResistanceGroups[group.get()].create(line, 0.97, 1);
+    return allResistanceGroups[group.get()].create(line, 0.95, 1);
   }
 
   function handleCameraScore(line) {
@@ -474,7 +475,11 @@
   }
 
   const securityBotStimulusGroup = {
-
+    'MaxSecurityBotStimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing']),
+    'SecurityBotEasyStimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIAntiPersonnel']),
+    'SecurityBotStimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIAntiPersonnel']),
+    'SecurityBotHardStimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIAntiPersonnel']),
+    'SecurityBotSumMasStimuliSet': new Stimulus(['STIMULUS_AIGenericPiercing', 'STIMULUS_AIAntiPersonnel']),
   }
 
   const allStimulusGroup = {
@@ -486,7 +491,7 @@
   }
 
   const customStimulusGroup = {
-    ...telekinesisStimulusGroup,
+    ...securityBotStimulusGroup,
   }
 
   function handleDamageStimulus(line, group) {
@@ -496,7 +501,7 @@
       return line;
     }
 
-    return groups[group.get()].create(line, 0.95);
+    return groups[group.get()].create(line, 0.97);
   }
 
   class FileHandler {
