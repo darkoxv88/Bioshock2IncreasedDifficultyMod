@@ -203,7 +203,7 @@
   }
 
   const customResistances = {
-    ...fallingResistances
+    ...stunResistances,
   }
 
   class ResistanceGroup {
@@ -281,7 +281,7 @@
       return line;
     }
 
-    return allResistanceGroups[group.get()].create(line, 0.85, 1);
+    return allResistanceGroups[group.get()].create(line, 0.97, 1);
   }
 
   function handleCameraScore(line) {
@@ -486,7 +486,7 @@
   }
 
   const customStimulusGroup = {
-    ...weaponsStimulusGroup,
+    ...telekinesisStimulusGroup,
   }
 
   function handleDamageStimulus(line, group) {
@@ -496,7 +496,7 @@
       return line;
     }
 
-    return groups[group.get()].create(line, 0.97);
+    return groups[group.get()].create(line, 0.95);
   }
 
   class FileHandler {
@@ -517,7 +517,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleCameraScore(lines[line], targetId);
+        lines[line] = this.handleDamageStimulus(lines[line], targetId);
       }
 
       const edited = lines.join('\n');

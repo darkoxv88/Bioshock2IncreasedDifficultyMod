@@ -310,6 +310,8 @@ Changelog:
 -> Looting a killed Splicer now has a 10% less chance of dropping Dollars
 -> All enemies take 3% less damage
 -> All enemies further take 15% less falling damage
+-> Player: all shocked/electric stun duration inflicted to enemies is reduced by 3%
+-> Player: all frozen stun duration inflicted to enemies is reduced by 3%
 -> Player: Reaserch points acquisition increased by 6%
 -> Player: default (none Drill) melee swings damage reduced by 3%
 -> Player: All Weapons damage reduced by 3%
