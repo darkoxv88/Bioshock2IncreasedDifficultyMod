@@ -312,9 +312,11 @@ Changelog:
 -> All enemies further take 15% less falling damage
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 3%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 3%
+-> Player: reduced Telekinesis damage by 5%
 -> Player: Reaserch points acquisition increased by 6%
 -> Player: default (none Drill) melee swings damage reduced by 3%
 -> Player: All Weapons damage reduced by 3%
+-> Player: increased the Electric damage in water taken by 10%
 
 
 
