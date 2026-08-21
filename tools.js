@@ -285,7 +285,7 @@
   }
 
   function handleCameraScore(line) {
-    const valueMultiplier = 1.0;
+    const valueMultiplier = 1.06;
 
     if (!line.includes('Scores=')) {
       return line;
@@ -517,7 +517,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleDamageStimulus(lines[line], targetId);
+        lines[line] = this.handleCameraScore(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
