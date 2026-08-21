@@ -43,6 +43,7 @@ Here is what you have to do to get this mod to work correctly on the Bioshock 2 
 This mod bundle was created with the idea to make multiple difficulties for the Bioshock 2 game. 
 Each new difficulty builds upon the previous one and is meant to be incrementally harder than the difficulty it is based on.
 The latest and hardest difficulty in this mod bundle will always be called 'Survivor'.
+If you find the default hard mode as easy, then Insane5 should feel like medium and Insane10 should feel like hard.
 
 
 Insane1:
