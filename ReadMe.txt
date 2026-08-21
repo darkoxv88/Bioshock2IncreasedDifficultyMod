@@ -46,19 +46,10 @@ The latest and hardest difficulty in this mod bundle will always be called 'Surv
 If you find the default hard mode as easy, then Insane5 should feel like medium and Insane10 should feel like hard.
 
 
+
 Insane1:
 
-Info: Changes the game to be very hard. This is the VeryHard mod taken from the mod pack https://www.systemshock.org/index.php?topic=9045.0
-
-Changelog:
-
--> Looting gives less resources
-
-
-
-Insane2:
-
-Info: The base for this mod is Insane1
+Info: 
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -90,9 +81,9 @@ Changelog:
 
 
 
-Insane3:
+Insane2:
 
-Info: The base for this mod is Insane2
+Info: The base for this mod is Insane1
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -124,9 +115,9 @@ Changelog:
 
 
 
-Insane4:
+Insane3:
 
-Info: The base for this mod is Insane3
+Info: The base for this mod is Insane2
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -152,9 +143,9 @@ Changelog:
 
 
 
-Insane5:
+Insane4:
 
-Info: The base for this mod is Insane4
+Info: The base for this mod is Insane3
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -192,9 +183,9 @@ Changelog:
 
 
 
-Insane6:
+Insane5:
 
-Info: The base for this mod is Insane5
+Info: The base for this mod is Insane4
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -222,9 +213,9 @@ Changelog:
 
 
 
-Insane7:
+Insane6:
 
-Info: The base for this mod is Insane6
+Info: The base for this mod is Insane5
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -251,9 +242,9 @@ Changelog:
 
 
 
-Insane8:
+Insane7:
 
-Info: The base for this mod is Insane7
+Info: The base for this mod is Insane6
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -278,9 +269,9 @@ Changelog:
 
 
 
-Insane9:
+Insane8:
 
-Info: The base for this mod is Insane8
+Info: The base for this mod is Insane7
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -299,9 +290,9 @@ Changelog:
 
 
 
-Insane10:
+Insane9:
 
-Info: The base for this mod is Insane9
+Info: The base for this mod is Insane8
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
