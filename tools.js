@@ -377,7 +377,7 @@
       return line;
     }
 
-    return groups[group.get()].create(line, 1);
+    return groups[group.get()].create(line, 0.95);
   }
 
   class Stimulus {
@@ -491,7 +491,7 @@
   }
 
   const customStimulusGroup = {
-    ...securityBotStimulusGroup,
+    ...telekinesisStimulusGroup,
   }
 
   function handleDamageStimulus(line, group) {
@@ -501,7 +501,7 @@
       return line;
     }
 
-    return groups[group.get()].create(line, 0.97);
+    return groups[group.get()].create(line, 0.95);
   }
 
   class FileHandler {
