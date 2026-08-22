@@ -327,6 +327,7 @@ Changelog:
 -> Looting a killed Splicer now has a 5% less chance of dropping Dollars
 -> Reduced the Eve Hypo and First Aid Kit To Ease probabilities by 5% (there is less of a chance the enemies will drop these items)
 -> Reduced the Weapon Ammo To Ease probabilities by 5% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
+-> Player: reduced Telekinesis damage by 5%
 -> Player: default (none Drill) melee swings damage reduced by 10%
 -> Player: All Weapons damage reduced by 10%
 
