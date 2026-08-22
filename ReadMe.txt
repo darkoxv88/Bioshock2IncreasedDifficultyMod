@@ -323,7 +323,8 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 
 Changelog:
 
--> 
+-> Looting gives a bit less resources
+-> Looting a killed Splicer now has a 5% less chance of dropping Dollars
 
 
 
