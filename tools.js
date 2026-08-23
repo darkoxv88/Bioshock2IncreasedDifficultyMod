@@ -491,6 +491,7 @@
   }
 
   const customStimulusGroup = {
+    ...incinerationStimulusGroup,
     ...telekinesisStimulusGroup,
   }
 

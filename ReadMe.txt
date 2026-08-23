@@ -344,6 +344,9 @@ Changelog:
 -> Looting gives a bit less resources
 -> Looting a killed Big Daddy now gives a little less Dollars
 -> Looting a killed Big Sister now gives a little less Dollars
+-> Player: reduced Telekinesis damage by 5%
+-> Player: Incinerate Plasmid damage reduced by 5%
+-> Player: sets the damage taken multiplier to 1.38
 
 
 
