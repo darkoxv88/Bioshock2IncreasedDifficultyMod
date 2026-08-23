@@ -341,7 +341,9 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 
 Changelog:
 
--> 
+-> Looting gives a bit less resources
+-> Looting a killed Big Daddy now gives a little less Dollars
+-> Looting a killed Big Sister now gives a little less Dollars
 
 
 
