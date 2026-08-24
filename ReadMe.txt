@@ -232,7 +232,7 @@ Changelog:
 -> All enemies take 11% less damage
 -> Big Sisters further take 4% less damage
 -> Reduced Security Bot damage against NPCs by around 4%
--> Player: reduced Telekinesis damage by 5%
+-> Player: reduced Telekinesis Plasmid damage by 5%
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 5%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 5%
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.25 to 2.35
@@ -307,7 +307,7 @@ Changelog:
 -> Reduced Security Bot damage against NPCs by 3%
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 3%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 3%
--> Player: reduced Telekinesis damage by 5%
+-> Player: reduced Telekinesis Plasmid damage by 5%
 -> Player: Reaserch points acquisition increased by 6%
 -> Player: default (none Drill) melee swings damage reduced by 3%
 -> Player: All Weapons damage reduced by 3%
@@ -327,7 +327,7 @@ Changelog:
 -> Looting a killed Splicer now has a 5% less chance of dropping Dollars
 -> Reduced the Eve Hypo and First Aid Kit To Ease probabilities by 5% (there is less of a chance the enemies will drop these items)
 -> Reduced the Weapon Ammo To Ease probabilities by 5% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
--> Player: reduced Telekinesis damage by 5%
+-> Player: reduced Telekinesis Plasmid damage by 5%
 -> Player: default (none Drill) melee swings damage reduced by 10%
 -> Player: All Weapons damage reduced by 10%
 
@@ -344,7 +344,7 @@ Changelog:
 -> Looting gives a bit less resources
 -> Looting a killed Big Daddy now gives a little less Dollars
 -> Looting a killed Big Sister now gives a little less Dollars
--> Player: reduced Telekinesis damage by 5%
+-> Player: reduced Telekinesis Plasmid damage by 5%
 -> Player: Incinerate Plasmid damage reduced by 5%
 -> Player: sets the damage taken multiplier to 1.38
 
