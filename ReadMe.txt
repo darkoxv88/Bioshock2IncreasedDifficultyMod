@@ -344,8 +344,11 @@ Changelog:
 -> Looting gives a bit less resources
 -> Looting a killed Big Daddy now gives a little less Dollars
 -> Looting a killed Big Sister now gives a little less Dollars
+-> All Splicers (excluding Brute Splicers) take 5% less damage
 -> Player: reduced Telekinesis Plasmid damage by 5%
 -> Player: Incinerate Plasmid damage reduced by 5%
+-> Player: default (none Drill) melee swings damage reduced by 2%
+-> Player: All Weapons damage reduced by 2%
 -> Player: sets the damage taken multiplier to 1.38
 
 

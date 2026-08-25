@@ -274,7 +274,14 @@
   }
 
   const customResistanceGroups = {
-    ...allResistanceGroups
+    'HumanAggressorResistanceSetEasy': new ResistanceGroup('HumanAggressorResistanceSetEasy'),
+    'HumanAggressorResistanceSet': new ResistanceGroup('HumanAggressorResistanceSet'),
+    'HumanAggressorNoFreezeResistanceSet': new ResistanceGroup('HumanAggressorNoFreezeResistanceSet'),
+    'HumanAggressorHardResistanceSet': new ResistanceGroup('HumanAggressorHardResistanceSet'),
+    'PreludeShockedGuyResistanceSet': new ResistanceGroup('PreludeShockedGuyResistanceSet'), // This one is used for the enemies in the first area.
+    'MeleeThugResistanceSet': new ResistanceGroup('MeleeThugResistanceSet'),
+    'CeilingCrawlerResistanceSet': new ResistanceGroup('CeilingCrawlerResistanceSet'),
+    'AssassinResistanceSet': new ResistanceGroup('AssassinResistanceSet'),
   }
 
   function handleResistances(line, group) {
@@ -491,8 +498,7 @@
   }
 
   const customStimulusGroup = {
-    ...incinerationStimulusGroup,
-    ...telekinesisStimulusGroup,
+    ...weaponsStimulusGroup,
   }
 
   function handleDamageStimulus(line, group) {
@@ -502,7 +508,7 @@
       return line;
     }
 
-    return groups[group.get()].create(line, 0.95);
+    return groups[group.get()].create(line, 0.98);
   }
 
   class FileHandler {
@@ -523,7 +529,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleDamageStimulus(lines[line], targetId);
+        lines[line] = this.handleResistances(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
