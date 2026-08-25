@@ -343,6 +343,9 @@ Changelog:
 -> Looting gives a bit less resources
 -> Looting a killed Big Daddy now gives a little less Dollars
 -> Looting a killed Big Sister now gives a little less Dollars
+-> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.8 * 1.18
+-> The cost of all Ammo is now calculated: BASE_COST * 1.8
+-> The cost of all Consumables is now calculated: BASE_COST * 1.8 * 1.12
 -> All Splicers (excluding Brute Splicers) take 5% less damage
 -> Player: reduced Telekinesis Plasmid damage by 5%
 -> Player: Incinerate Plasmid damage reduced by 5%

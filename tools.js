@@ -120,7 +120,7 @@
         continue;
       }
 
-      return vendorItems[item].create(line, 1.75);
+      return vendorItems[item].create(line, 1.8);
     }
 
     return line;
@@ -529,7 +529,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleResistances(lines[line], targetId);
+        lines[line] = this.handleVendorItem(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
