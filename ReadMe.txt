@@ -54,7 +54,7 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 
 Changelog:
 
--> Looting gives less resources
+-> Looting gives a lot less resources
 -> Looting a Security Bot gives much less resources
 -> Looting a SMG/RPG Security Turret gives less resources
 -> Looting a Security Camera gives less resources
