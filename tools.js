@@ -203,7 +203,8 @@
   }
 
   const customResistances = {
-    ...stunResistances,
+    ...physicalResistances,
+    ...elementalResistances,
   }
 
   class ResistanceGroup {
@@ -273,7 +274,14 @@
   }
 
   const customResistanceGroups = {
-    ...allResistanceGroups,
+    'HumanAggressorResistanceSetEasy': new ResistanceGroup('HumanAggressorResistanceSetEasy'),
+    'HumanAggressorResistanceSet': new ResistanceGroup('HumanAggressorResistanceSet'),
+    'HumanAggressorNoFreezeResistanceSet': new ResistanceGroup('HumanAggressorNoFreezeResistanceSet'),
+    'HumanAggressorHardResistanceSet': new ResistanceGroup('HumanAggressorHardResistanceSet'),
+    'PreludeShockedGuyResistanceSet': new ResistanceGroup('PreludeShockedGuyResistanceSet'), // This one is used for the enemies in the first area.
+    'MeleeThugResistanceSet': new ResistanceGroup('MeleeThugResistanceSet'),
+    'CeilingCrawlerResistanceSet': new ResistanceGroup('CeilingCrawlerResistanceSet'),
+    'AssassinResistanceSet': new ResistanceGroup('AssassinResistanceSet'),
   }
 
   function handleResistances(line, group) {
