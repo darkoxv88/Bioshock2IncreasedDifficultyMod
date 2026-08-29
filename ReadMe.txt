@@ -372,6 +372,7 @@ Changelog:
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 3%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 3%
 -> Player: default (none Drill) melee swings damage reduced by 9%
+-> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.35 to 2.45
 -> Player: All Weapons damage reduced by 9%
 
 
