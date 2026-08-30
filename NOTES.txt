@@ -4,5 +4,4 @@ EditablePickups:
 Total ADAM:
   Harvest: 12*240 = 2880
   Save: (4*160) + (8*200) + 80 + 120 + 250 = 2690
-  
   SaveReward_Container

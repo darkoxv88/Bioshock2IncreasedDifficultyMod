@@ -8,5 +8,3 @@ EditablePickups:
   Abbys: DrillAmmo_Pickup7 -> test/fix it
   Abbys: DrillAmmo_Pickup8 -> test/fix it
   Gulag: DrillAmmo_Pickup7 -> test/fix it
-  
-Original game: Custom Loot Slots are broken, need to redo them.
