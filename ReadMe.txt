@@ -265,7 +265,7 @@ Changelog:
 -> Player: Spear Gun Trap Spear damage decreased by 5%
 -> Player: Shotgun Solid Slug Ammo damage reduced by 5%
 -> Player: Rivet Gun Rivet Ammo headshot damage multiplier decreased from 3.9 to 3.6
--> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 3.25 to 3
+-> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier decreased from 3.25 to 3
 -> Player: sets the damage taken multiplier to 1.35
 
 
@@ -287,7 +287,7 @@ Changelog:
 -> Player: default (none Drill) melee swings damage reduced by 12%
 -> Player: All Weapons damage reduced by 12%
 -> Player: Rivet Gun Rivet Ammo headshot damage multiplier decreased from 3.6 to 3.5
--> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 3 to 2.9
+-> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier decreased from 3 to 2.9
 
 
 
@@ -352,6 +352,11 @@ Changelog:
 -> Player: Incinerate Plasmid damage reduced by 5%
 -> Player: default (none Drill) melee swings damage reduced by 2%
 -> Player: All Weapons damage reduced by 2%
+-> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 2.9 to 3
+-> Player: Machine Gun (40Cal, Antipersonnel, Armor Piercing) Ammo headshot damage multiplier increased from 1.35 to 1.41
+-> Player: Shotgun 00Buck Ammo headshot damage multiplier increased from 1.25 to 1.4
+-> Player: Shotgun Phosphorus Buck Ammo headshot damage multiplier increased from 1.45 to 1.5
+-> Player: Shotgun Solid Slug Ammo headshot damage multiplier decreased from 1.65 to 1.6
 -> Player: sets the damage taken multiplier to 1.38
 
 
@@ -372,6 +377,7 @@ Changelog:
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 3%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 3%
 -> Player: default (none Drill) melee swings damage reduced by 9%
+-> Player: Rivet Gun Rivet Ammo headshot damage multiplier increased from 3.5 to 3.65
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.35 to 2.45
 -> Player: All Weapons damage reduced by 9%
 
