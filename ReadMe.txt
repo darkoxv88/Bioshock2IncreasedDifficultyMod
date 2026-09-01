@@ -392,6 +392,8 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 Changelog:
 
 -> Looting gives a bit less resources
+-> Reduced the Eve Hypo and First Aid Kit To Ease probabilities by 5% (there is less of a chance the enemies will drop these items)
+-> Reduced the Weapon Ammo To Ease probabilities by 5% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
 -> All Splicers (excluding Brute Splicers) take 2% less damage
 -> Minigun Turrets do 10% more damage.
 -> Player: All Weapons damage reduced by 6%
