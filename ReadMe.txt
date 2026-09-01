@@ -392,6 +392,8 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 Changelog:
 
 -> Looting gives a bit less resources
+-> Minigun Turrets do 10% more damage.
+-> Player: All Weapons damage reduced by 6%
 -> Player: sets the damage taken multiplier to 1.4
 
 
