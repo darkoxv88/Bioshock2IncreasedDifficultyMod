@@ -392,6 +392,7 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 Changelog:
 
 -> Looting gives a bit less resources
+-> Player: sets the damage taken multiplier to 1.4
 
 
 
