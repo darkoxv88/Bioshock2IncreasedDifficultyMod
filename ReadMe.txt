@@ -413,6 +413,7 @@ Changelog:
 -> Looting gives a bit less resources
 -> Reduced the Eve Hypo and First Aid Kit To Ease probabilities by 6% (there is less of a chance the enemies will drop these items)
 -> Reduced the Weapon Ammo To Ease probabilities by 6% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
+-> Player: sets the damage taken multiplier to 1.43
 
 
 
