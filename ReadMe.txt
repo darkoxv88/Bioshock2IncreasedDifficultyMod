@@ -402,6 +402,18 @@ Changelog:
 
 
 
+Insane14:
+
+Info: The base for this mod is Insane13
+
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+
+Changelog:
+
+-> 
+
+
+
 *************************************************************************************************************************************************************
 The folowing mod is considered Map edits and must be loaded using TFC Installer
 *************************************************************************************************************************************************************
