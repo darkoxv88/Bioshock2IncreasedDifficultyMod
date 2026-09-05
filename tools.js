@@ -120,7 +120,7 @@
         continue;
       }
 
-      return vendorItems[item].create(line, 1.8);
+      return vendorItems[item].create(line, 1.85);
     }
 
     return line;
@@ -523,7 +523,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleDamageStimulus(lines[line], targetId);
+        lines[line] = this.handleVendorItem(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
