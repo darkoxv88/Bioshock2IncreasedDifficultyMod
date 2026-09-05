@@ -127,7 +127,7 @@
   }
 
   function handleHackingSpeed(line) {
-    const addValue = 2;
+    const addValue = 1;
 
     if (!line.includes('CursorSpeed=')) {
       return line;
@@ -523,7 +523,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleVendorItem(lines[line], targetId);
+        lines[line] = this.handleHackingSpeed(lines[line], targetId);
       }
 
       const edited = lines.join('\n');

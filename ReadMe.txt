@@ -411,6 +411,7 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 Changelog:
 
 -> Looting gives a bit less resources
+-> Hacking: increases the needle speed by 1 unit (depending on the original speed the increase is about 3%-5%)
 -> Reduced the Eve Hypo and First Aid Kit To Ease probabilities by 6% (there is less of a chance the enemies will drop these items)
 -> Reduced the Weapon Ammo To Ease probabilities by 6% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
 -> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.85 * 1.18
