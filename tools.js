@@ -283,7 +283,7 @@
       return line;
     }
 
-    return allResistanceGroups[group.get()].create(line, 0.95, 1);
+    return allResistanceGroups[group.get()].create(line, 0.87, 1);
   }
 
   function handleCameraScore(line) {
@@ -523,7 +523,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleHackingSpeed(lines[line], targetId);
+        lines[line] = this.handleResistances(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
