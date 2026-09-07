@@ -378,6 +378,7 @@ Changelog:
 -> Player: default (none Drill) melee swings damage reduced by 9%
 -> Player: Rivet Gun Rivet Ammo headshot damage multiplier increased from 3.5 to 3.65
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.35 to 2.45
+-> Player: default (none Drill) melee swings damage reduced by 9%
 -> Player: All Weapons damage reduced by 9%
 
 
@@ -396,6 +397,7 @@ Changelog:
 -> All Splicers (excluding Brute Splicers) take 2% less damage
 -> Alpha Series take 5% less damage
 -> Minigun Turrets do 10% more damage.
+-> Player: default (none Drill) melee swings damage reduced by 6%
 -> Player: All Weapons damage reduced by 6%
 -> Player: sets the damage taken multiplier to 1.4
 
@@ -417,12 +419,25 @@ Changelog:
 -> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.85 * 1.18
 -> The cost of all Ammo is now calculated: BASE_COST * 1.85
 -> The cost of all Consumables is now calculated: BASE_COST * 1.85 * 1.12
+-> Player: default (none Drill) melee swings damage reduced by 6%
 -> Player: All Weapons damage reduced by 6%
 -> Player: Rivet Gun Rivet Ammo headshot damage multiplier increased from 3.65 to 3.75
 -> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 3 to 3.15
 -> Player: Machine Gun (40Cal, Antipersonnel, Armor Piercing) Ammo headshot damage multiplier increased from 1.41 to 1.45
 -> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.45 to 2.55
 -> Player: sets the damage taken multiplier to 1.43
+
+
+
+Insane15:
+
+Info: The base for this mod is Insane14
+
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+
+Changelog:
+
+->
 
 
 
