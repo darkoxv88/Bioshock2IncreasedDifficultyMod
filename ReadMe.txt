@@ -437,7 +437,7 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 
 Changelog:
 
-->
+-> Brute Splicers further take 33% less Electric damage in water.
 
 
 
