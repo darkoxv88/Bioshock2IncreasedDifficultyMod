@@ -438,6 +438,9 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 Changelog:
 
 -> Brute Splicers further take 33% less Electric damage in water.
+-> Player: default (none Drill) melee swings damage reduced by 7%
+-> Player: All Weapons damage reduced by 7%
+-> Player: sets the damage taken multiplier to 1.43
 
 
 
