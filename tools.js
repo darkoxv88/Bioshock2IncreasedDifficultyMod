@@ -203,8 +203,7 @@
   }
 
   const customResistances = {
-    ...physicalResistances,
-    ...elementalResistances,
+    ...stunResistances,
   }
 
   class ResistanceGroup {
@@ -274,8 +273,7 @@
   }
 
   const customResistanceGroups = {
-    'MadDaddyResistanceSet': new ResistanceGroup('MadDaddyResistanceSet'),
-    'EdenDaddyResistanceSet': new ResistanceGroup('EdenDaddyResistanceSet'),
+    ...allResistanceGroups
   }
 
   function handleResistances(line, group) {
@@ -283,7 +281,7 @@
       return line;
     }
 
-    return allResistanceGroups[group.get()].create(line, 0.87, 1);
+    return allResistanceGroups[group.get()].create(line, 0.95, 1);
   }
 
   function handleCameraScore(line) {
@@ -492,7 +490,9 @@
   }
 
   const customStimulusGroup = {
-    ...weaponsStimulusGroup,
+    ...incinerationStimulusGroup,
+    ...telekinesisStimulusGroup,
+    ...springBoardTrapStimulusGroup,
   }
 
   function handleDamageStimulus(line, group) {
@@ -502,7 +502,7 @@
       return line;
     }
 
-    return groups[group.get()].create(line, 0.93);
+    return groups[group.get()].create(line, 0.95);
   }
 
   class FileHandler {
@@ -523,7 +523,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleVendorItem(lines[line], targetId);
+        lines[line] = this.handleResistances(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
