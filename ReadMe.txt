@@ -438,6 +438,8 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 Changelog:
 
 -> Looting gives a bit less resources
+-> Reduced the Eve Hypo and First Aid Kit To Ease probabilities by 10% (there is less of a chance the enemies will drop these items)
+-> Reduced the Weapon Ammo To Ease probabilities by 10% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
 -> Brute Splicers further take 33% less Electric damage in water.
 -> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.95 * 1.18
 -> The cost of all Ammo is now calculated: BASE_COST * 1.95

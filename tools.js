@@ -376,7 +376,7 @@
       return line;
     }
 
-    return groups[group.get()].create(line, 0.94);
+    return groups[group.get()].create(line, 0.9);
   }
 
   class Stimulus {
@@ -523,7 +523,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleResistances(lines[line], targetId);
+        lines[line] = this.handleToEase(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
