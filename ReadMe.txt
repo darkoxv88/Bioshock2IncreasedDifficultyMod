@@ -428,7 +428,7 @@ Changelog:
 -> Player: Rivet Gun Rivet Ammo headshot damage multiplier increased from 3.65 to 3.75
 -> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 3 to 3.15
 -> Player: Machine Gun (40Cal, Antipersonnel, Armor Piercing) Ammo headshot damage multiplier increased from 1.41 to 1.45
--> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.45 to 2.55
+-> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.45 to 2.5
 -> Player: sets the damage taken multiplier to 1.43
 
 
@@ -436,6 +436,8 @@ Changelog:
 Insane15:
 
 Info: The base for this mod is Insane14
+
+Exported as: Difficulty3_Insane
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -454,6 +456,8 @@ Changelog:
 -> Player: Incinerate Plasmid damage reduced by 5%
 -> Player: default (none Drill) melee swings damage reduced by 7%
 -> Player: All Weapons damage reduced by 7%
+-> Player: Shotgun Solid Slug Ammo damage further reduced by 8%
+-> Player: Shotgun Solid Slug Ammo headshot damage multiplier decreased from 1.6 to 1.55
 -> Player: sets the damage taken multiplier to 1.46
 
 
