@@ -1,10 +1,1 @@
-EditablePickups:
-  Gallery: DrillAmmo_Pickup14 -> test/fix it
-  Gallery: DrillAmmo_Pickup16 -> test/fix it
-  Abbys: DrillAmmo_Pickup3 -> test/fix it
-  Abbys: DrillAmmo_Pickup4 -> test/fix it
-  Abbys: DrillAmmo_Pickup5 -> test/fix it
-  Abbys: DrillAmmo_Pickup6 -> test/fix it
-  Abbys: DrillAmmo_Pickup7 -> test/fix it
-  Abbys: DrillAmmo_Pickup8 -> test/fix it
-  Gulag: DrillAmmo_Pickup7 -> test/fix it
+

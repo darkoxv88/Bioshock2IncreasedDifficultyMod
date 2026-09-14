@@ -186,6 +186,8 @@ Insane5:
 
 Info: The base for this mod is Insane4
 
+Exported as: Difficulty1_VeryHard
+
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
 Changelog:
@@ -317,6 +319,8 @@ Changelog:
 Insane10:
 
 Info: The base for this mod is Insane9
+
+Exported as: Difficulty2_Expert
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
