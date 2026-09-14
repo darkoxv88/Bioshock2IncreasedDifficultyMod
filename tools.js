@@ -70,8 +70,8 @@
   }
 
   const vendorItems = {
-    'ShockDesignerClasses.MedHypo': new VendorItem('ShockDesignerClasses.MedHypo', 'Pickups.MedHypo_Pickup', 1.18),
-    'ShockDesignerClasses.BioAmmoHypo': new VendorItem('ShockDesignerClasses.BioAmmoHypo', 'Pickups.EveHypo_Pickup', 1.18),
+    'ShockDesignerClasses.MedHypo': new VendorItem('ShockDesignerClasses.MedHypo', 'Pickups.MedHypo_Pickup', 1.21),
+    'ShockDesignerClasses.BioAmmoHypo': new VendorItem('ShockDesignerClasses.BioAmmoHypo', 'Pickups.EveHypo_Pickup', 1.21),
     
     // Ammo
     'ShockGame.Drill_Ammo': new VendorItem('ShockGame.Drill_Ammo', 'Pickups.DrillAmmo_Pickup', 1.0),
@@ -90,24 +90,24 @@
     'ShockGame.Speargun_Spear': new VendorItem('ShockGame.Speargun_Spear', 'Pickups.StandardSpear_Pickup', 1.0),
     'ShockGame.Speargun_RocketSpearAmmo': new VendorItem('ShockGame.Speargun_RocketSpearAmmo', 'Pickups.RocketSpear_Pickup', 1.0),
     'ShockGame.Speargun_TrapSpearAmmo': new VendorItem('ShockGame.Speargun_TrapSpearAmmo', 'Pickups.TrapSpear_Pickup', 1.6),
-    'ShockGame.GrenadeLauncher_FragGrenade': new VendorItem('ShockGame.GrenadeLauncher_FragGrenade', 'Pickups.FragGrenade_Pickup', 1.0),
-    'ShockGame.GrenadeLauncher_StickyGrenade': new VendorItem('ShockGame.GrenadeLauncher_StickyGrenade', 'Pickups.StickyGrenade_Pickup', 1.0),
-    'ShockGame.GrenadeLauncher_RPG': new VendorItem('ShockGame.GrenadeLauncher_RPG', 'Pickups.RPG_Pickup', 1.0),
+    'ShockGame.GrenadeLauncher_FragGrenade': new VendorItem('ShockGame.GrenadeLauncher_FragGrenade', 'Pickups.FragGrenade_Pickup', 1.05),
+    'ShockGame.GrenadeLauncher_StickyGrenade': new VendorItem('ShockGame.GrenadeLauncher_StickyGrenade', 'Pickups.StickyGrenade_Pickup', 1.05),
+    'ShockGame.GrenadeLauncher_RPG': new VendorItem('ShockGame.GrenadeLauncher_RPG', 'Pickups.RPG_Pickup', 1.05),
 
     // Consumables
-    'Pickups.FreshWaterPickupItem': new VendorItem('Pickups.FreshWaterPickupItem', 'Pickups.FreshWater_Pickup', 1.12),
-    'Pickups.VitaminsPickupItem': new VendorItem('Pickups.VitaminsPickupItem', 'Pickups.Vitamins_Pickup', 1.12),
-    'Pickups.DrHollcroftsCureAllPickupItem': new VendorItem('Pickups.DrHollcroftsCureAllPickupItem', 'Pickups.DrHollcroftsCureAll_Pickup', 1.12),
-    'Pickups.PottedMeatPickupItem': new VendorItem('Pickups.PottedMeatPickupItem', 'Pickups.PottedMeat_Pickup', 1.12),
-    'Pickups.AspirinPickupItem': new VendorItem('Pickups.AspirinPickupItem', 'Pickups.Aspirin_Pickup', 1.12),
-    'Pickups.SodaPickupItem': new VendorItem('Pickups.SodaPickupItem', 'Pickups.Soda_Pickup', 1.12),
-    'Pickups.TwinkiePickupItem': new VendorItem('Pickups.TwinkiePickupItem', 'Pickups.Twinkie1_Pickup', 1.12),
-    'Pickups.CannedFruitPickupItem': new VendorItem('Pickups.CannedFruitPickupItem', 'Pickups.CannedFruit_Pickup', 1.12),
-    'Pickups.PowerbarPickupItem': new VendorItem('Pickups.PowerbarPickupItem', 'Pickups.Powerbar1_Pickup', 1.12),
-    'Pickups.SardinesPickupItem': new VendorItem('Pickups.SardinesPickupItem', 'Pickups.Sardines_Pickup', 1.12),
-    'Pickups.CannedBeansPickupItem': new VendorItem('Pickups.CannedBeansPickupItem', 'Pickups.CannedBeans_Pickup', 1.12),
-    'Pickups.CoffeePickupItem': new VendorItem('Pickups.CoffeePickupItem', 'Pickups.Coffee_Pickup', 1.12),
-    'Pickups.ChipsPickupItem': new VendorItem('Pickups.ChipsPickupItem', 'Pickups.Chips_Pickup', 1.12),
+    'Pickups.FreshWaterPickupItem': new VendorItem('Pickups.FreshWaterPickupItem', 'Pickups.FreshWater_Pickup', 1.14),
+    'Pickups.VitaminsPickupItem': new VendorItem('Pickups.VitaminsPickupItem', 'Pickups.Vitamins_Pickup', 1.14),
+    'Pickups.DrHollcroftsCureAllPickupItem': new VendorItem('Pickups.DrHollcroftsCureAllPickupItem', 'Pickups.DrHollcroftsCureAll_Pickup', 1.14),
+    'Pickups.PottedMeatPickupItem': new VendorItem('Pickups.PottedMeatPickupItem', 'Pickups.PottedMeat_Pickup', 1.14),
+    'Pickups.AspirinPickupItem': new VendorItem('Pickups.AspirinPickupItem', 'Pickups.Aspirin_Pickup', 1.14),
+    'Pickups.SodaPickupItem': new VendorItem('Pickups.SodaPickupItem', 'Pickups.Soda_Pickup', 1.14),
+    'Pickups.TwinkiePickupItem': new VendorItem('Pickups.TwinkiePickupItem', 'Pickups.Twinkie1_Pickup', 1.14),
+    'Pickups.CannedFruitPickupItem': new VendorItem('Pickups.CannedFruitPickupItem', 'Pickups.CannedFruit_Pickup', 1.14),
+    'Pickups.PowerbarPickupItem': new VendorItem('Pickups.PowerbarPickupItem', 'Pickups.Powerbar1_Pickup', 1.14),
+    'Pickups.SardinesPickupItem': new VendorItem('Pickups.SardinesPickupItem', 'Pickups.Sardines_Pickup', 1.14),
+    'Pickups.CannedBeansPickupItem': new VendorItem('Pickups.CannedBeansPickupItem', 'Pickups.CannedBeans_Pickup', 1.14),
+    'Pickups.CoffeePickupItem': new VendorItem('Pickups.CoffeePickupItem', 'Pickups.Coffee_Pickup', 1.14),
+    'Pickups.ChipsPickupItem': new VendorItem('Pickups.ChipsPickupItem', 'Pickups.Chips_Pickup', 1.14),
   };
 
   function handleVendorItem(line) {

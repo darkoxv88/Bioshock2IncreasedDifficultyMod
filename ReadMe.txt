@@ -447,10 +447,10 @@ Changelog:
 -> Reduced the Eve Hypo and First Aid Kit To Ease probabilities by 10% (there is less of a chance the enemies will drop these items)
 -> Reduced the Weapon Ammo To Ease probabilities by 10% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
 -> Brute Splicers further take 33% less Electric damage in water.
--> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.95 * 1.18
+-> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.95 * 1.21
 -> Increased the BASE_COST for the Trap Spear Ammo by 60%
 -> The cost of all Ammo is now calculated: BASE_COST * 1.95
--> The cost of all Consumables is now calculated: BASE_COST * 1.95 * 1.12
+-> The cost of all Consumables is now calculated: BASE_COST * 1.95 * 1.14
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 5%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 5%
 -> Player: reduced Telekinesis Plasmid damage by 5%
