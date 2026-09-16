@@ -428,7 +428,7 @@ Changelog:
 -> Player: Rivet Gun Rivet Ammo headshot damage multiplier increased from 3.65 to 3.75
 -> Player: Rivet Gun Heavy Rivet Ammo headshot damage multiplier increased from 3 to 3.15
 -> Player: Machine Gun (40Cal, Antipersonnel, Armor Piercing) Ammo headshot damage multiplier increased from 1.41 to 1.45
--> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier increased from 2.45 to 2.5
+-> Player: Spear Gun (Spear, Rocket Spear, Trap Spear) Ammo headshot damage multiplier decreased from 2.45 to 2.4
 -> Player: sets the damage taken multiplier to 1.43
 
 
@@ -447,6 +447,7 @@ Changelog:
 -> Reduced the Eve Hypo and First Aid Kit To Ease probabilities by 10% (there is less of a chance the enemies will drop these items)
 -> Reduced the Weapon Ammo To Ease probabilities by 10% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
 -> All enemies take 2% less damage
+-> Houdini Splicers further take 3% less damage
 -> Brute Splicers further take 33% less Electric damage in water.
 -> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.95 * 1.21
 -> Increased the BASE_COST for the Trap Spear Ammo by 60%

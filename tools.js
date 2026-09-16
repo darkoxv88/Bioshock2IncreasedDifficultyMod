@@ -275,7 +275,7 @@
   }
 
   const customResistanceGroups = {
-    ...allResistanceGroups
+    'AssassinResistanceSet': new ResistanceGroup('AssassinResistanceSet'),
   }
 
   function handleResistances(line, group) {
@@ -283,7 +283,7 @@
       return line;
     }
 
-    return allResistanceGroups[group.get()].create(line, 0.98, 1);
+    return allResistanceGroups[group.get()].create(line, 0.97, 1);
   }
 
   function handleCameraScore(line) {
