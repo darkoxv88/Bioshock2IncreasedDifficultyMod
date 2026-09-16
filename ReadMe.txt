@@ -42,11 +42,11 @@ Here is what you have to do to get this mod to work correctly on the Bioshock 2 
 
 This mod bundle was created with the idea to make multiple difficulties for the Bioshock 2 game. 
 Each new difficulty builds upon the previous one and is meant to be incrementally harder than the difficulty it is based on.
-If you find the default hard mode as easy, then Insane5 should feel like normal and Insane10 should feel like hard.
+If you find the default hard mode as easy, then Difficulty5 should feel like normal and Difficulty10 should feel like hard.
 
 
 
-Insane1:
+Difficulty1:
 
 Info: 
 
@@ -81,9 +81,9 @@ Changelog:
 
 
 
-Insane2:
+Difficulty2:
 
-Info: The base for this mod is Insane1
+Info: The base for this mod is Difficulty1
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -115,9 +115,9 @@ Changelog:
 
 
 
-Insane3:
+Difficulty3:
 
-Info: The base for this mod is Insane2
+Info: The base for this mod is Difficulty2
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -143,9 +143,9 @@ Changelog:
 
 
 
-Insane4:
+Difficulty4:
 
-Info: The base for this mod is Insane3
+Info: The base for this mod is Difficulty3
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -182,9 +182,9 @@ Changelog:
 
 
 
-Insane5:
+Difficulty5:
 
-Info: The base for this mod is Insane4
+Info: The base for this mod is Difficulty4
 
 Exported as: Difficulty1_VeryHard
 
@@ -214,9 +214,9 @@ Changelog:
 
 
 
-Insane6:
+Difficulty6:
 
-Info: The base for this mod is Insane5
+Info: The base for this mod is Difficulty5
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -244,9 +244,9 @@ Changelog:
 
 
 
-Insane7:
+Difficulty7:
 
-Info: The base for this mod is Insane6
+Info: The base for this mod is Difficulty6
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -271,9 +271,9 @@ Changelog:
 
 
 
-Insane8:
+Difficulty8:
 
-Info: The base for this mod is Insane7
+Info: The base for this mod is Difficulty7
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -292,9 +292,9 @@ Changelog:
 
 
 
-Insane9:
+Difficulty9:
 
-Info: The base for this mod is Insane8
+Info: The base for this mod is Difficulty8
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -316,9 +316,9 @@ Changelog:
 
 
 
-Insane10:
+Difficulty10:
 
-Info: The base for this mod is Insane9
+Info: The base for this mod is Difficulty9
 
 Exported as: Difficulty2_Expert
 
@@ -336,9 +336,9 @@ Changelog:
 
 
 
-Insane11:
+Difficulty11:
 
-Info: The base for this mod is Insane10
+Info: The base for this mod is Difficulty10
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -364,9 +364,9 @@ Changelog:
 
 
 
-Insane12:
+Difficulty12:
 
-Info: The base for this mod is Insane11
+Info: The base for this mod is Difficulty11
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -387,9 +387,9 @@ Changelog:
 
 
 
-Insane13:
+Difficulty13:
 
-Info: The base for this mod is Insane12
+Info: The base for this mod is Difficulty12
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -407,9 +407,9 @@ Changelog:
 
 
 
-Insane14:
+Difficulty14:
 
-Info: The base for this mod is Insane13
+Info: The base for this mod is Difficulty13
 
 Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
 
@@ -433,9 +433,9 @@ Changelog:
 
 
 
-Insane15:
+Difficulty15:
 
-Info: The base for this mod is Insane14
+Info: The base for this mod is Difficulty14
 
 Exported as: Difficulty3_Insane
 
@@ -485,6 +485,7 @@ Changelog Version1:
 -> Created new custom groups (the name of this group will always start with "Custom_") in the LootTables_perobjectconfig.ini file for edits of Dollars found in Safes
 -> Reduced some Ammo found in Safes by 20%
 -> Further reduced some Ammo found in Safes by 10%-50%
+> Reduced Ammo found in some Machinegun pickups
 -> Reduced Ammo found in Shotgun weapon to 2
 -> Reduced Ammo found in Spear Gun weapon to 5
 -> Reduced Ammo found in most Machinegun Ammo pickups to 16
