@@ -78,18 +78,18 @@
     'ShockGame.Rivet_Ammo': new VendorItem('ShockGame.Rivet_Ammo', 'Pickups.StandardRivet_Pickup', 1.0),
     'ShockGame.Rivet_MagnumAmmo': new VendorItem('ShockGame.Rivet_MagnumAmmo', 'Pickups.HighPowerRivet_Pickup', 1.0),
     'ShockGame.Rivet_TrapAmmo': new VendorItem('ShockGame.Rivet_TrapAmmo', 'Pickups.TrapRivet_Pickup', 1.0),
-    'ShockGame.Hacking_Ammo': new VendorItem('ShockGame.Hacking_Ammo', 'Pickups.HackAmmo_Pickup', 1.25),
-    'ShockGame.Hacking_AutoHackAmmo': new VendorItem('ShockGame.Hacking_AutoHackAmmo', 'Pickups.AutoHackAmmo_Pickup', 1.1),
+    'ShockGame.Hacking_Ammo': new VendorItem('ShockGame.Hacking_Ammo', 'Pickups.HackAmmo_Pickup', 1.28),
+    'ShockGame.Hacking_AutoHackAmmo': new VendorItem('ShockGame.Hacking_AutoHackAmmo', 'Pickups.AutoHackAmmo_Pickup', 1.15),
     'ShockGame.Hacking_TurretAmmo': new VendorItem('ShockGame.Hacking_TurretAmmo', 'Pickups.TurretAmmo_Pickup', 1.0),
     'ShockGame.MachineGun_Bullet': new VendorItem('ShockGame.MachineGun_Bullet', 'Pickups.SMG40Cal_Pickup', 1.0),
     'ShockGame.MachineGun_AntiPersonnelBullet': new VendorItem('ShockGame.MachineGun_AntiPersonnelBullet', 'Pickups.SMGAntiPersonnel_Pickup', 1.0),
     'ShockGame.MachineGun_ArmorPiercingBullet': new VendorItem('ShockGame.MachineGun_ArmorPiercingBullet', 'Pickups.SMGArmorPiercing_Pickup', 1.0),
     'ShockGame.Shotgun_00Buck': new VendorItem('ShockGame.Shotgun_00Buck', 'Pickups.00Buck_Pickup', 1.0),
     'ShockGame.Shotgun_PhosphorusBuck': new VendorItem('ShockGame.Shotgun_PhosphorusBuck', 'Pickups.PhosphorusBuck_Pickup', 1.0),
-    'ShockGame.Shotgun_SolidSlug': new VendorItem('ShockGame.Shotgun_SolidSlug', 'Pickups.SolidSlug_Pickup', 1.0),
+    'ShockGame.Shotgun_SolidSlug': new VendorItem('ShockGame.Shotgun_SolidSlug', 'Pickups.SolidSlug_Pickup', 1.05),
     'ShockGame.Speargun_Spear': new VendorItem('ShockGame.Speargun_Spear', 'Pickups.StandardSpear_Pickup', 1.0),
     'ShockGame.Speargun_RocketSpearAmmo': new VendorItem('ShockGame.Speargun_RocketSpearAmmo', 'Pickups.RocketSpear_Pickup', 1.0),
-    'ShockGame.Speargun_TrapSpearAmmo': new VendorItem('ShockGame.Speargun_TrapSpearAmmo', 'Pickups.TrapSpear_Pickup', 1.6),
+    'ShockGame.Speargun_TrapSpearAmmo': new VendorItem('ShockGame.Speargun_TrapSpearAmmo', 'Pickups.TrapSpear_Pickup', 1.75),
     'ShockGame.GrenadeLauncher_FragGrenade': new VendorItem('ShockGame.GrenadeLauncher_FragGrenade', 'Pickups.FragGrenade_Pickup', 1.05),
     'ShockGame.GrenadeLauncher_StickyGrenade': new VendorItem('ShockGame.GrenadeLauncher_StickyGrenade', 'Pickups.StickyGrenade_Pickup', 1.05),
     'ShockGame.GrenadeLauncher_RPG': new VendorItem('ShockGame.GrenadeLauncher_RPG', 'Pickups.RPG_Pickup', 1.05),
@@ -525,7 +525,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleResistances(lines[line], targetId);
+        lines[line] = this.handleVendorItem(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
