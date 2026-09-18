@@ -450,10 +450,10 @@ Changelog:
 -> All enemies take 2% less damage
 -> Houdini Splicers further take 3% less damage
 -> Brute Splicers further take 33% less Electric damage in water.
--> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.95 * 1.21
--> Increased the BASE_COST for the Trap Spear Ammo by 75%
--> The cost of all Ammo is now calculated: BASE_COST * 1.95
--> The cost of all Consumables is now calculated: BASE_COST * 1.95 * 1.14
+-> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.97 * 1.21
+-> Increased the BASE_COST for the Trap Spear Ammo by 133%
+-> The cost of all Ammo is now calculated: BASE_COST * 1.97
+-> The cost of all Consumables is now calculated: BASE_COST * 1.97 * 1.14
 -> Player: all shocked/electric stun duration inflicted to enemies is reduced by 5%
 -> Player: all frozen stun duration inflicted to enemies is reduced by 5%
 -> Player: reduced Telekinesis Plasmid damage by 5%
