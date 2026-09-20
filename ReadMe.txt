@@ -476,7 +476,14 @@ Recommended to install the following: RemasteredGameMapChanges or OriginalGameMa
 Changelog:
 
 -> Looting gives a bit less resources
-
+-> Reduced the Eve Hypo and First Aid Kit To Ease probabilities by 5% (there is less of a chance the enemies will drop these items)
+-> Reduced the Weapon Ammo To Ease probabilities by 5% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
+-> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 2.02 * 1.21
+-> The cost of all Ammo is now calculated: BASE_COST * 2.02
+-> The cost of all Consumables is now calculated: BASE_COST * 2.02 * 1.14
+-> Player: default (none Drill) melee swings damage reduced by 4%
+-> Player: All Weapons damage reduced by 4%
+-> Player: sets the damage taken multiplier to 1.46
 
 
 *************************************************************************************************************************************************************

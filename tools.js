@@ -91,8 +91,8 @@
     'ShockGame.Speargun_RocketSpearAmmo': new VendorItem('ShockGame.Speargun_RocketSpearAmmo', 'Pickups.RocketSpear_Pickup', 1.0),
     'ShockGame.Speargun_TrapSpearAmmo': new VendorItem('ShockGame.Speargun_TrapSpearAmmo', 'Pickups.TrapSpear_Pickup', 2.33),
     'ShockGame.GrenadeLauncher_FragGrenade': new VendorItem('ShockGame.GrenadeLauncher_FragGrenade', 'Pickups.FragGrenade_Pickup', 1.04),
-    'ShockGame.GrenadeLauncher_StickyGrenade': new VendorItem('ShockGame.GrenadeLauncher_StickyGrenade', 'Pickups.StickyGrenade_Pickup', 1.07),
-    'ShockGame.GrenadeLauncher_RPG': new VendorItem('ShockGame.GrenadeLauncher_RPG', 'Pickups.RPG_Pickup', 1.07),
+    'ShockGame.GrenadeLauncher_StickyGrenade': new VendorItem('ShockGame.GrenadeLauncher_StickyGrenade', 'Pickups.StickyGrenade_Pickup', 1.09),
+    'ShockGame.GrenadeLauncher_RPG': new VendorItem('ShockGame.GrenadeLauncher_RPG', 'Pickups.RPG_Pickup', 1.09),
 
     // Consumables
     'Pickups.FreshWaterPickupItem': new VendorItem('Pickups.FreshWaterPickupItem', 'Pickups.FreshWater_Pickup', 1.14),
@@ -120,7 +120,7 @@
         continue;
       }
 
-      return vendorItems[item].create(line, 1.97);
+      return vendorItems[item].create(line, 2.02);
     }
 
     return line;
@@ -379,7 +379,7 @@
       return line;
     }
 
-    return groups[group.get()].create(line, 0.9);
+    return groups[group.get()].create(line, 0.95);
   }
 
   class Stimulus {
@@ -493,9 +493,7 @@
   }
 
   const customStimulusGroup = {
-    ...incinerationStimulusGroup,
-    ...telekinesisStimulusGroup,
-    ...springBoardTrapStimulusGroup,
+    ...weaponsStimulusGroup,
   }
 
   function handleDamageStimulus(line, group) {
@@ -505,7 +503,7 @@
       return line;
     }
 
-    return groups[group.get()].create(line, 0.95);
+    return groups[group.get()].create(line, 0.96);
   }
 
   class FileHandler {
@@ -526,7 +524,7 @@
 
       for (var line = 0; line < lines.length; line++) {
         targetId.detect(lines[line]);
-        lines[line] = this.handleResistances(lines[line], targetId);
+        lines[line] = this.handleToEase(lines[line], targetId);
       }
 
       const edited = lines.join('\n');
