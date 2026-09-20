@@ -41,6 +41,5 @@ Here is what you have to do to get this mod to work correctly on the Bioshock 2 
 *About*
 
 This mod bundle was created with the idea to make multiple difficulties for the Bioshock 2 game. 
-Each new difficulty builds upon the previous one.
 If you find the default hard mode as easy, then Difficulty1_VeryHard should feel like normal and Difficulty2_Expert should feel like hard.
 If you want more incremental difficulty increases or the changelog, visit: https://github.com/darkoxv88/Bioshock2IncreasedDifficultyMod
