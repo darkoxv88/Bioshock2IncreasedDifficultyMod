@@ -467,6 +467,18 @@ Changelog:
 
 
 
+Difficulty16:
+
+Info: The base for this mod is Difficulty15
+
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+
+Changelog:
+
+-> Looting gives a bit less resources
+
+
+
 *************************************************************************************************************************************************************
 The folowing mod is considered Map edits and must be loaded using TFC Installer
 *************************************************************************************************************************************************************
