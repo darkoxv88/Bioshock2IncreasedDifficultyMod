@@ -450,6 +450,7 @@ Changelog:
 -> All enemies take 2% less damage
 -> Houdini Splicers further take 3% less damage
 -> Brute Splicers further take 33% less Electric damage in water.
+-> Alpha Series further take 2% less damage
 -> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 1.97 * 1.21
 -> Increased the BASE_COST for the Trap Spear Ammo by 133%
 -> The cost of all Ammo is now calculated: BASE_COST * 1.97
