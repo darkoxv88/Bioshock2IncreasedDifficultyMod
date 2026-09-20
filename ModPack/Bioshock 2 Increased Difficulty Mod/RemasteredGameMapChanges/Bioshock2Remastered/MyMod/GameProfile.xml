@@ -1,0 +1,7 @@
+<GameProfile gameId="" packageFileVersion="143" packageLicenseeVersion="59" tfcExtension=".tfc" enableCustomTFCs="true" enableTFCNamePropertyCleanup="true" removeLODBias="false" removeLODGroup="false" hasHashCheck="false" enableObjectDataShift="false" enableExpandTables="true" updateUITextureSizeProperties="false" enableNewCompressedChunks="true" enableUpdateStats="true" packageRecompression="All" deleteUCSFiles="false" deleteUncompressedSizeFiles="false" optimizePackageSpace="false" displayName="Bioshock 2 Remastered" TFCMappingFileName="Bioshock2Remastered" xmlns:yaxlib="http://www.sinairv.com/yaxlib/">
+  <DLCs yaxlib:realtype="UPK.Utils.GameProfiles.DLC[]" />
+  <PackageFolders yaxlib:realtype="UPK.Utils.GameProfiles.PackageFolder[]">
+    <PackageFolder path="Build\*" TFCpath="ContentBaked\pc\BulkContent" customTFCStartIndex="0" />
+    <PackageFolder path="ContentBaked\pc\Maps" TFCpath="ContentBaked\pc\BulkContent" customTFCStartIndex="0" />
+  </PackageFolders>
+</GameProfile>
