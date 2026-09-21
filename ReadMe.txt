@@ -50,7 +50,7 @@ Difficulty1:
 
 Info: 
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -85,7 +85,7 @@ Difficulty2:
 
 Info: The base for this mod is Difficulty1
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -119,7 +119,7 @@ Difficulty3:
 
 Info: The base for this mod is Difficulty2
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -147,7 +147,7 @@ Difficulty4:
 
 Info: The base for this mod is Difficulty3
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -188,7 +188,7 @@ Info: The base for this mod is Difficulty4
 
 Exported as: Difficulty1_VeryHard
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -218,7 +218,7 @@ Difficulty6:
 
 Info: The base for this mod is Difficulty5
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -248,7 +248,7 @@ Difficulty7:
 
 Info: The base for this mod is Difficulty6
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -275,7 +275,7 @@ Difficulty8:
 
 Info: The base for this mod is Difficulty7
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -296,7 +296,7 @@ Difficulty9:
 
 Info: The base for this mod is Difficulty8
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -322,7 +322,7 @@ Info: The base for this mod is Difficulty9
 
 Exported as: Difficulty2_Expert
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -340,7 +340,7 @@ Difficulty11:
 
 Info: The base for this mod is Difficulty10
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -368,7 +368,7 @@ Difficulty12:
 
 Info: The base for this mod is Difficulty11
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -391,7 +391,7 @@ Difficulty13:
 
 Info: The base for this mod is Difficulty12
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -411,7 +411,7 @@ Difficulty14:
 
 Info: The base for this mod is Difficulty13
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -439,7 +439,7 @@ Info: The base for this mod is Difficulty14
 
 Exported as: Difficulty3_Insane
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -471,7 +471,7 @@ Difficulty16:
 
 Info: The base for this mod is Difficulty15
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
