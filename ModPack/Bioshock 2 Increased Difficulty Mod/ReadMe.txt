@@ -13,7 +13,7 @@ Here is what you have to do to get this mod to work correctly on Bioshock 2 orig
 4) RECOMMENDED: for the Original version of the game I also changed some things in the Maps to make it harder. To apply this changes do the following:
   - Download TFC Installer https://www.nexusmods.com/site/mods/588?tab=description extract it and run it
   - Set the game directory "steamapps/common/Bioshock 2"
-  - Chose the version from the mod pack 'OriginalGameMapChanges' directory
+  - Chose the mod pack 'OriginalGameMapChanges' directory
   - Click the Update button
   - NOTE: multiple mod packages can be installed this way
 5) Now would you kindly start a new game since it is required to make this mod work correctly.
@@ -31,7 +31,7 @@ Here is what you have to do to get this mod to work correctly on the Bioshock 2 
 3) RECOMMENDED: for the Remastered version of the game I also changed some things in the Maps to make it harder. To apply this changes do the following:
   - Download TFC Installer https://www.nexusmods.com/site/mods/588?tab=description extract it and run it
   - Set the game directory "steamapps/common/Bioshock 2 Remastered"
-  - Chose the version from the mod pack 'RemasteredGameMapChanges' directory
+  - Chose the mod pack 'RemasteredGameMapChanges' directory
   - Click the Update button
   - NOTE: multiple mod packages can be installed this way
 4) Now would you kindly start a new game since it is required to make this mod work correctly.
@@ -41,6 +41,5 @@ Here is what you have to do to get this mod to work correctly on the Bioshock 2 
 *About*
 
 This mod bundle was created with the idea to make multiple difficulties for the Bioshock 2 game. 
-Each new difficulty builds upon the previous one.
 If you find the default hard mode as easy, then Difficulty1_VeryHard should feel like normal and Difficulty2_Expert should feel like hard.
 If you want more incremental difficulty increases or the changelog, visit: https://github.com/darkoxv88/Bioshock2IncreasedDifficultyMod

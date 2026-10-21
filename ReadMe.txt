@@ -13,7 +13,7 @@ Here is what you have to do to get this mod to work correctly on Bioshock 2 orig
 4) RECOMMENDED: for the Original version of the game I also changed some things in the Maps to make it harder. To apply this changes do the following:
   - Download TFC Installer https://www.nexusmods.com/site/mods/588?tab=description extract it and run it
   - Set the game directory "steamapps/common/Bioshock 2"
-  - Chose the version from the mod pack 'OriginalGameMapChanges' directory
+  - Chose the mod pack 'OriginalGameMapChanges' directory
   - Click the Update button
   - NOTE: multiple mod packages can be installed this way
 5) Now would you kindly start a new game since it is required to make this mod work correctly.
@@ -31,7 +31,7 @@ Here is what you have to do to get this mod to work correctly on the Bioshock 2 
 3) RECOMMENDED: for the Remastered version of the game I also changed some things in the Maps to make it harder. To apply this changes do the following:
   - Download TFC Installer https://www.nexusmods.com/site/mods/588?tab=description extract it and run it
   - Set the game directory "steamapps/common/Bioshock 2 Remastered"
-  - Chose the version from the mod pack 'RemasteredGameMapChanges' directory
+  - Chose the mod pack 'RemasteredGameMapChanges' directory
   - Click the Update button
   - NOTE: multiple mod packages can be installed this way
 4) Now would you kindly start a new game since it is required to make this mod work correctly.
@@ -46,11 +46,20 @@ If you find the default hard mode as easy, then Difficulty5 should feel like nor
 
 
 
+Difficulty0:
+
+Info:
+
+This are the original ini files and change nothing. They do include the custom configs but without the MapChanges installed will do nothing.
+
+
+
+
 Difficulty1:
 
 Info: 
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -85,7 +94,7 @@ Difficulty2:
 
 Info: The base for this mod is Difficulty1
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -119,7 +128,7 @@ Difficulty3:
 
 Info: The base for this mod is Difficulty2
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -147,7 +156,7 @@ Difficulty4:
 
 Info: The base for this mod is Difficulty3
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -188,7 +197,7 @@ Info: The base for this mod is Difficulty4
 
 Exported as: Difficulty1_VeryHard
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -218,7 +227,7 @@ Difficulty6:
 
 Info: The base for this mod is Difficulty5
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -248,7 +257,7 @@ Difficulty7:
 
 Info: The base for this mod is Difficulty6
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -275,7 +284,7 @@ Difficulty8:
 
 Info: The base for this mod is Difficulty7
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -296,7 +305,7 @@ Difficulty9:
 
 Info: The base for this mod is Difficulty8
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -322,7 +331,7 @@ Info: The base for this mod is Difficulty9
 
 Exported as: Difficulty2_Expert
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -340,7 +349,7 @@ Difficulty11:
 
 Info: The base for this mod is Difficulty10
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -368,7 +377,7 @@ Difficulty12:
 
 Info: The base for this mod is Difficulty11
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -391,7 +400,7 @@ Difficulty13:
 
 Info: The base for this mod is Difficulty12
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -411,7 +420,7 @@ Difficulty14:
 
 Info: The base for this mod is Difficulty13
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -439,7 +448,7 @@ Info: The base for this mod is Difficulty14
 
 Exported as: Difficulty3_Insane
 
-Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges (Version1)
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
 
 Changelog:
 
@@ -465,6 +474,25 @@ Changelog:
 -> Player: Shotgun Solid Slug Ammo headshot damage multiplier decreased from 1.6 to 1.55
 -> Player: sets the damage taken multiplier to 1.45
 
+
+
+Difficulty16:
+
+Info: The base for this mod is Difficulty15
+
+Recommended to install the following: RemasteredGameMapChanges or OriginalGameMapChanges
+
+Changelog:
+
+-> Looting gives a bit less resources
+-> Reduced the Eve Hypo and First Aid Kit To Ease probabilities by 5% (there is less of a chance the enemies will drop these items)
+-> Reduced the Weapon Ammo To Ease probabilities by 5% (When low on Weapon Ammo, there is less of a chance the enemies will drop it)
+-> The cost of MedHypos and EveHypos is now calculated: BASE_COST * 2.02 * 1.21
+-> The cost of all Ammo is now calculated: BASE_COST * 2.02
+-> The cost of all Consumables is now calculated: BASE_COST * 2.02 * 1.14
+-> Player: default (none Drill) melee swings damage reduced by 4%
+-> Player: All Weapons damage reduced by 4%
+-> Player: sets the damage taken multiplier to 1.46
 
 
 *************************************************************************************************************************************************************
