@@ -46,6 +46,15 @@ If you find the default hard mode as easy, then Difficulty5 should feel like nor
 
 
 
+Difficulty0:
+
+Info:
+
+This are the original ini files and change nothing. They do include the custom configs but without the MapChanges installed will do nothing.
+
+
+
+
 Difficulty1:
 
 Info: 
